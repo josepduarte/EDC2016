@@ -20,7 +20,14 @@ namespace tp1.Models
             // Add custom user claims here
             return userIdentity;
         }
-
+        public DateTime BirthDate
+        {
+            get; set;
+        }
+        public String FullName
+        {
+            get; set;
+        }
         public Task<ClaimsIdentity> GenerateUserIdentityAsync(ApplicationUserManager manager)
         {
             return Task.FromResult(GenerateUserIdentity(manager));
