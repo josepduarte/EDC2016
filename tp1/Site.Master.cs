@@ -10,10 +10,6 @@ using Microsoft.AspNet.Identity;
 using tp1.Models;
 using Microsoft.AspNet.Identity.EntityFramework;
 
-
-
-
-
 namespace tp1
 {
     public partial class SiteMaster : MasterPage
@@ -27,7 +23,7 @@ namespace tp1
             var manager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new ApplicationDbContext()));
             var currentUser = manager.FindById(System.Web.HttpContext.Current.User.Identity.GetUserId());
 
-            return currentUser.FullName;
+            return currentUser.au_fname + " " + currentUser.au_lname;
 
         }
         protected void Page_Init(object sender, EventArgs e)

@@ -25,7 +25,11 @@ namespace tp1.Models
         {
             get; set;
         }
-        public String FullName
+        public String au_fname
+        {
+            get; set;
+        }
+        public String au_lname
         {
             get; set;
         }
