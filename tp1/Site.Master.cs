@@ -76,6 +76,15 @@ namespace tp1
         {
             Context.GetOwinContext().Authentication.SignOut(DefaultAuthenticationTypes.ApplicationCookie);
         }
+
+        protected String getUserFullName() {
+            /*var manager = new UserManager<ApplicationUser>(new UserStore<ApplicationUser>(new ApplicationDbContext()));
+            var currentUser = manager.FindById(System.Web.HttpContext.Current.User.Identity.GetUserId());
+
+            return currentUser.FullName;*/
+
+            return null;
+        }
     }
 
 }
