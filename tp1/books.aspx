@@ -19,13 +19,13 @@
     <!--
         MAIN GRID VIEW
     -->
-    <asp:GridView CssClass="table table-hover table-striped" ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="title_id" DataSourceID="SqlDataSource1" EmptyDataText="There are no data records to display." ForeColor="#333333" GridLines="None">
+    <asp:GridView CssClass="table table-hover table-striped" ID="GridView1" runat="server" AllowPaging="True" AllowSorting="True" AutoGenerateColumns="False" CellPadding="4" DataKeyNames="title_id" DataSourceID="SqlDataSource1" EmptyDataText="There are no data records to display." ForeColor="#333333" GridLines="None" HorizontalAlign="Center" Width="1750px">
         <PagerStyle  HorizontalAlign ="Center" CssClass="pagination-ys" /> 
         <AlternatingRowStyle BackColor="White" ForeColor="#284775" />
         <Columns>
             <asp:TemplateField ShowHeader="False">
                 <ItemTemplate>
-                    <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CommandName="Select" Text="Select"><i class="fa fa-check-square" aria-hidden="true"></i></asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CommandName="Select" Text="Select"><center><i class="fa fa-check-square fa-2x" aria-hidden="true"></i></center></asp:LinkButton>
                 </ItemTemplate>
             </asp:TemplateField>
             <asp:BoundField DataField="title_id" HeaderText="title_id" ReadOnly="True" SortExpression="title_id" />
@@ -33,9 +33,10 @@
             <asp:BoundField DataField="type" HeaderText="type" SortExpression="type" />
             <asp:BoundField DataField="pub_id" HeaderText="pub_id" SortExpression="pub_id" />
         </Columns>
-        <EditRowStyle BackColor="#999999" />
+        <EditRowStyle BackColor="#999999" HorizontalAlign="Center" />
+        <EmptyDataRowStyle HorizontalAlign="Center" />
         <FooterStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
-        <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" />
+        <HeaderStyle BackColor="#5D7B9D" Font-Bold="True" ForeColor="White" HorizontalAlign="Center" />
         <PagerStyle BackColor="#284775" ForeColor="White" HorizontalAlign="Center" />
         <RowStyle BackColor="#F7F6F3" ForeColor="#333333" />
         <SelectedRowStyle BackColor="#E2DED6" Font-Bold="True" ForeColor="#333333" />
@@ -82,7 +83,7 @@
     <!--
         DETAILS VIEW - TITLE
     -->
-    <asp:DetailsView CssClass="table table-hover table-striped" ID="DetailsView1" runat="server" AutoGenerateRows="False" CellPadding="4" DataKeyNames="title_id" DataSourceID="SqlDataSource3" ForeColor="#333333" GridLines="None" Height="50px" Width="541px" >
+    <asp:DetailsView CssClass="table table-hover table-striped" ID="DetailsView1" runat="server" AutoGenerateRows="False" CellPadding="4" DataKeyNames="title_id" DataSourceID="SqlDataSource3" ForeColor="#333333" GridLines="None" Height="50px" Width="1750px" >
         <AlternatingRowStyle BackColor="White" />
         <CommandRowStyle BackColor="#D1DDF1" Font-Bold="True" />
         <EditRowStyle BackColor="#ffffff" />
@@ -192,11 +193,11 @@
             </asp:TemplateField>
             <asp:TemplateField ShowHeader="False">
                 <EditItemTemplate>
-                    <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="True" CommandName="Update" Text="Update"><i class="fa fa-floppy-o" aria-hidden="true"></i></asp:LinkButton>
-                    &nbsp;<asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel"><i class="fa fa-times" aria-hidden="true"></i></asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="True" CommandName="Update" Text="Update"><i class="fa fa-floppy-o fa-3x" aria-hidden="true"></i></asp:LinkButton>
+                    &nbsp;<asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CommandName="Cancel" Text="Cancel"><i class="fa fa-times fa-3x" aria-hidden="true"></i></asp:LinkButton>
                 </EditItemTemplate>
                 <ItemTemplate>
-                    <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit"><i class="fa fa-pencil-square-o" aria-hidden="true"></i></asp:LinkButton>
+                    <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="False" CommandName="Edit" Text="Edit"><i class="fa fa-pencil-square-o fa-3x" aria-hidden="true"></i></asp:LinkButton>
                 </ItemTemplate>
             </asp:TemplateField>
         </Fields>
