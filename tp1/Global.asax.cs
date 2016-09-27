@@ -18,7 +18,6 @@ namespace tp1
             RouteConfig.RegisterRoutes(RouteTable.Routes);
             BundleConfig.RegisterBundles(BundleTable.Bundles);
         }
-        /*
         void Application_Error(object sender, EventArgs e)
         {
             // Code that runs when an unhandled error occurs
@@ -55,6 +54,6 @@ namespace tp1
 
             Response.Redirect("Error_page.aspx");
             
-          }*/
+          }
     }
 }
