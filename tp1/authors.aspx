@@ -1,11 +1,11 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="authors.aspx.cs" Inherits="tp1.authors" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <asp:GridView CssClass="GridStyle th table table-hover table-striped" ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="au_id" DataSourceID="SqlDataSource1" EmptyDataText="There are no data records to display." AllowPaging="True" AllowSorting="True" HorizontalAlign="Center" Width="1750px">
-        <EditRowStyle HorizontalAlign="Center" Width="1750px" />
+    <asp:GridView CssClass="GridStyle th table table-hover table-striped" ID="GridView1" runat="server" AutoGenerateColumns="False" DataKeyNames="au_id" DataSourceID="SqlDataSource1" EmptyDataText="There are no data records to display." AllowPaging="True" AllowSorting="True" HorizontalAlign="Center" Width="1150px">
+        <EditRowStyle HorizontalAlign="Center" Width="1150px" />
         <HeaderStyle HorizontalAlign="Center" />
      
     <PagerStyle  HorizontalAlign ="Center" CssClass="pagination-ys" /> 
-        <AlternatingRowStyle HorizontalAlign="Center" Width="1750px" />
+        <AlternatingRowStyle HorizontalAlign="Center" Width="1150px" />
     <Columns>
         <asp:TemplateField ShowHeader="True">
             <EditItemTemplate>

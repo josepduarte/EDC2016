@@ -1,14 +1,14 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="displayReports.aspx.cs" Inherits="tp1.Personal.displayReports" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
-    <asp:GridView ID="GridView1" CssClass="GridStyle th table table-hover table-striped" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" EmptyDataText="There are no data records to display." CellPadding="4" ForeColor="#333333" GridLines="None">
+    <asp:GridView ID="GridView1" CssClass="GridStyle th table table-hover table-striped" runat="server" AutoGenerateColumns="False" DataSourceID="SqlDataSource1" EmptyDataText="There are no data records to display." CellPadding="4" ForeColor="#333333" GridLines="None" Width="963px">
         <AlternatingRowStyle BackColor="White" />
         <Columns>
-            <asp:BoundField DataField="title" HeaderText="title" SortExpression="title" />
-            <asp:BoundField DataField="ord_num" HeaderText="ord_num" SortExpression="ord_num" />
-            <asp:BoundField DataField="stor_id" HeaderText="stor_id" SortExpression="stor_id" />
-            <asp:BoundField DataField="ord_date" HeaderText="ord_date" SortExpression="ord_date" />
-            <asp:BoundField DataField="qty" HeaderText="qty" SortExpression="qty" />
-            <asp:BoundField DataField="payterms" HeaderText="payterms" SortExpression="payterms" />
+            <asp:BoundField DataField="title" HeaderText="Title" SortExpression="title" />
+            <asp:BoundField DataField="ord_num" HeaderText="Order number" SortExpression="ord_num" />
+            <asp:BoundField DataField="stor_id" HeaderText="Store id" SortExpression="stor_id" />
+            <asp:BoundField DataField="ord_date" HeaderText="Order date" SortExpression="ord_date" />
+            <asp:BoundField DataField="qty" HeaderText="Quantitity" SortExpression="qty" />
+            <asp:BoundField DataField="payterms" HeaderText="Pay terms" SortExpression="payterms" />
         </Columns>
         <EditRowStyle BackColor="#2461BF" />
         <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
