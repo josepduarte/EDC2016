@@ -45,15 +45,14 @@ namespace TP2_csharp
 
         }
 
-        protected void On_local_change(object sender, EventArgs e)
+        protected void OnPageIndexChanging(object sender, GridViewPageEventArgs e)
         {
-            
-            string local = DropDownList2.SelectedValue;
-            if (local != string.Empty)
-                listOfCourses_XLM.XPath = "cursos/curso[@local='" + local + "']";
-            else
-                listOfCourses_XLM.XPath = "cursos/curso";
-            GridView1.DataBind();
+        
+        }
+
+        protected void OnPageIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
