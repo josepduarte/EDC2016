@@ -11,7 +11,8 @@ namespace TP2_csharp
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            Curso_xml.XPath = "cursos/curso[@guid='" + Convert.ToInt32(Request.QueryString["ID"]) + "']";
+            DetailsView1.DataBind();
         }
     }
 }

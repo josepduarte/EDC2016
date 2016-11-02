@@ -9,6 +9,12 @@
     <asp:XmlDataSource ID="ListOfLocals_xml" runat="server" DataFile="~/App_Data/Courses_2.xml" TransformFile="~/App_Data/Courses_locals.xslt" XPath="listaDeLocais/local[not(@nome=preceding:: local/@nome)]"></asp:XmlDataSource>
     <asp:GridView ID="GridView1"  runat="server" AutoGenerateColumns="False" DataSourceID="listOfCourses_XLM" AllowPaging="True" OnPageIndexChanged="On_grau_changed">
         <Columns>
+            <asp:TemplateField ShowHeader="False">
+                <ItemTemplate>
+                   
+                    <asp:HyperLink ID="lnkSelect" runat='server' NavigateUrl='<%# String.Format("~/Course.aspx?ID={0}", Eval("guid")) %>'>Select</asp:HyperLink>
+                </ItemTemplate>
+            </asp:TemplateField>
             <asp:BoundField DataField="guid" HeaderText="guid" SortExpression="guid" />
             <asp:BoundField DataField="nome" HeaderText="nome" SortExpression="nome" />
             <asp:BoundField DataField="grau" HeaderText="grau" SortExpression="grau" />
