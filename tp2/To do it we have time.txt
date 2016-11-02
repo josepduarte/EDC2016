@@ -1,0 +1,4 @@
+To do if we have time:
+	- Add a field in dropdownlist "ALL"
+	- OnIndexPageChanged using the right way
+	
