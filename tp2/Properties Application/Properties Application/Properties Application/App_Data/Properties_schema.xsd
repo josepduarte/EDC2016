@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema id="Properties_schema"
+    targetNamespace="http://tempuri.org/Properties_schema.xsd"
+    elementFormDefault="qualified"
+    xmlns="http://tempuri.org/Properties_schema.xsd"
+    xmlns:mstns="http://tempuri.org/Properties_schema.xsd"
+    xmlns:xs="http://www.w3.org/2001/XMLSchema"
+>
+  <xs:element name="properties">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="property">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="address">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="city " type="xs:string"/>
+                    <xs:element name="street" type="xs:string"/>
+                    <xs:element name="port_number" type="xs:decimal"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="Owners" maxOccurs="1">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="owner">
+                      <xs:complexType>
+                        <xs:sequence>
+                          <xs:element name="tax_id" type="xs:decimal"/>
+                          <xs:element name="name" type="xs:string"/>
+                          <xs:element name="purchase_date" type="xs:date"/>
+                        </xs:sequence>
+                      </xs:complexType>
+                    </xs:element>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+            <xs:attribute name ="land_register_number"  type="xs:decimal"/>
+            <xs:attribute name ="value" type="xs:decimal"/>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
