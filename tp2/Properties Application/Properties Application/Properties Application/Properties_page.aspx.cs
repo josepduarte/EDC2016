@@ -15,35 +15,13 @@ namespace Properties_Application
 
         }
 
-        protected void FormView1_ItemDeleting(object sender, FormViewDeleteEventArgs e)
-        {
-
-        }
-
-        protected void FormView1_ItemInserting(object sender, FormViewInsertEventArgs e)
-        {
-
-        }
-
-        protected void FormView1_ItemUpdating(object sender, FormViewUpdateEventArgs e)
-        {
-
-        }
-
-        protected void Button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         protected void DetailsView1_ItemInserting(object sender, DetailsViewInsertEventArgs e)
         {
+            Properties_xml.TransformFile = "";
             XmlDocument xdoc = Properties_xml.GetXmlDocument();
-
-            // <Properties>
-            XmlElement properties = xdoc.CreateElement("properties");
+           
             // <Property>
             XmlElement property = xdoc.CreateElement("property");
-            properties.AppendChild(property);
 
             // <address>
             XmlElement address = xdoc.CreateElement("address");
@@ -58,14 +36,48 @@ namespace Properties_Application
             address.AppendChild(port_number);
             property.AppendChild(address);
 
-            // <
+            // attributes
+            XmlAttribute land_register_number = xdoc.CreateAttribute("land_register_number");
+            XmlAttribute value = xdoc.CreateAttribute("value");
+            land_register_number.Value = e.Values["land_register_number"].ToString();
+            value.Value = e.Values["value"].ToString();
+            property.Attributes.Append(land_register_number);
+            property.Attributes.Append(value);
 
+            // documento
+            xdoc.DocumentElement.AppendChild(property);
+            Properties_xml.Save();
+            Properties_xml.TransformFile = "~/App_Data/Property_XSL.xslt";
+            e.Cancel = true;
+
+            DetailsView1.DataBind();
+            DetailsView1.PageIndex = xdoc.DocumentElement.ChildNodes.Count - 1;
+            DetailsView1.ChangeMode(DetailsViewMode.ReadOnly);
 
         }
 
         protected void DetailsView1_ItemUpdating(object sender, DetailsViewUpdateEventArgs e)
         {
+            Properties_xml.TransformFile = "";
+            XmlDocument xdoc = Properties_xml.GetXmlDocument();
 
+            XmlElement property = xdoc.SelectSingleNode("properties/property[@land_register_number=" + e.OldValues["land_register_number"].ToString() + "]") as XmlElement;
+
+            property.Attributes["land_register_number"].Value = e.NewValues["land_register_number"].ToString();
+            property.Attributes["value"].Value = e.NewValues["value"].ToString();
+
+            XmlElement address = property.SelectSingleNode("address[city='" + e.OldValues["city"].ToString() + "' and street='" + e.OldValues["street"].ToString() + "' and port_number='" + e.OldValues["port_number"].ToString() + "']") as XmlElement;
+
+            address.SelectSingleNode("city").InnerText = e.NewValues["city"].ToString();
+            address.SelectSingleNode("street").InnerText = e.NewValues["street"].ToString();
+            address.SelectSingleNode("port_number").InnerText = e.NewValues["port_number"].ToString();
+
+            Properties_xml.Save();
+            Properties_xml.TransformFile = "~/App_Data/Property_XSL.xslt";
+            e.Cancel = true;
+
+            DetailsView1.DataBind();
+            DetailsView1.ChangeMode(DetailsViewMode.ReadOnly);
         }
 
         protected void DetailsView1_ItemDeleting(object sender, DetailsViewDeleteEventArgs e)

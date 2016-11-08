@@ -1,8 +1,8 @@
-﻿<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <properties>
-  <property land_register_number="1234" value="200000">
+  <property land_register_number="12345" value="20000012">
     <address>
-      <city>Aveiro</city>
+      <city>Aveiro2</city>
       <street>Á-dos-Ferreiros</street>
       <port_number>102</port_number>
     </address>
@@ -25,5 +25,19 @@
       <name>Bruno Alves</name>
       <purchase_date type="date">2015-05-11</purchase_date>
     </owner>
+  </property>
+  <property land_register_number="213123" value="21311231">
+    <address>
+      <city>asdas</city>
+      <street>asfasfasf</street>
+      <port_number>213</port_number>
+    </address>
+  </property>
+  <property land_register_number="219830" value="12">
+    <address>
+      <city>bad</city>
+      <street>moi</street>
+      <port_number>34</port_number>
+    </address>
   </property>
 </properties>
