@@ -82,7 +82,19 @@ namespace Properties_Application
 
         protected void DetailsView1_ItemDeleting(object sender, DetailsViewDeleteEventArgs e)
         {
+            Properties_xml.TransformFile = "";
+            XmlDocument xdoc = Properties_xml.GetXmlDocument();
 
+            XmlElement property = xdoc.SelectSingleNode("properties/property[@land_register_number=" + e.Values["land_register_number"].ToString() + "]") as XmlElement;
+
+            xdoc.DocumentElement.RemoveChild(property);
+
+            Properties_xml.Save();
+            Properties_xml.TransformFile = "~/App_Data/Property_XSL.xslt";
+            e.Cancel = true;
+
+            DetailsView1.DataBind();
+            DetailsView1.ChangeMode(DetailsViewMode.ReadOnly);
         }
     }
 }
