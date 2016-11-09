@@ -55,4 +55,23 @@
       <port_number>1234</port_number>
     </address>
   </property>
+  <property land_register_number="123" value="1000">
+    <address>
+      <city>AAAAAA</city>
+      <street>fdfdfffd</street>
+      <port_number>45</port_number>
+    </address>
+    <Owners>
+      <owner>
+        <tax_id>12312312</tax_id>
+        <name>vlaflklk</name>
+        <purchase_date>12-1-2016</purchase_date>
+      </owner>
+      <owner>
+        <tax_id>123123</tax_id>
+        <name>asdfyuasydfasdas</name>
+        <purchase_date>12-6-2017</purchase_date>
+      </owner>
+    </Owners>
+  </property>
 </properties>
