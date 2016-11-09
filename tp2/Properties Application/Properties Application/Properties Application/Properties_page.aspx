@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Properties_page.aspx.cs" Inherits="Properties_Application.Properties_page" %>
+﻿﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Properties_page.aspx.cs" Inherits="Properties_Application.Properties_page" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <asp:DetailsView CssClass="GridStyle th table table-hover table-striped" ID="DetailsView1" runat="server" AllowPaging="True" AutoGenerateRows="False" CellPadding="4" DataSourceID="Properties_xml" ForeColor="#333333" GridLines="None" Height="50px" Width="315px" style="margin-right: 3px; margin-top: 0px;" OnItemDeleting="DetailsView1_ItemDeleting" OnItemInserting="DetailsView1_ItemInserting" OnItemUpdating="DetailsView1_ItemUpdating">  
         <AlternatingRowStyle BackColor="White" />
@@ -38,10 +38,9 @@
         <EditRowStyle BackColor="#2461BF" />
         <FieldHeaderStyle BackColor="#DEE8F5" Font-Bold="True" />
         <Fields>
-            <asp:BoundField DataField="tax_id" HeaderText="tax_id" SortExpression="tax_id" />
-            <asp:BoundField DataField="name" HeaderText="name" SortExpression="name" />
-            <asp:BoundField DataField="purchase_date" HeaderText="purchase_date" SortExpression="purchase_date" />
-            <asp:BoundField DataField="land_register_number" HeaderText="land_register_number" SortExpression="land_register_number" />
+            <asp:BoundField DataField="tax_id" HeaderText="Tax Identification Number" SortExpression="tax_id" />
+            <asp:BoundField DataField="name" HeaderText="Name" SortExpression="name" />
+            <asp:BoundField DataField="purchase_date" HeaderText="Purchase date" SortExpression="purchase_date" />
             <asp:TemplateField ShowHeader="False">
                 <EditItemTemplate>
                     <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="True" CommandName="Update" Text="Update"></asp:LinkButton>
