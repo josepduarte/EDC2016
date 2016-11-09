@@ -3,51 +3,15 @@
   <xs:element name="curso">
     <xs:complexType>
       <xs:sequence>
-        <xs:element name="guid">
-          <xs:simpleType>
-            <xs:restriction base="xs:unsignedShort">
-              <xs:minInclusive value="1"/>
-            </xs:restriction>
-          </xs:simpleType>
-        </xs:element>
+        <xs:element name="guid" type="xs:unsignedByte" />
         <xs:element name="nome" type="xs:string" />
         <xs:element name="imagem" type="xs:string" />
-        <xs:element name="codigo">
-          <xs:simpleType>
-            <xs:restriction base="xs:string">
-              <xs:pattern value="[0-9A-Z][0-9A-Z][0-9A-Z][0-9A-Z][/][0-9A-Z][0-9A-Z][0-9A-Z][0-9A-Z]"/>
-            </xs:restriction>
-          </xs:simpleType>
-        </xs:element>
-        <xs:element name="grau">
-          <xs:simpleType>
-            <xs:restriction base="xs:string">
-              <xs:enumeration value="Licenciatura"/>
-              <xs:enumeration value="Mestrado Integrado"/>
-            </xs:restriction>
-          </xs:simpleType>
-        </xs:element>
-        <xs:element name="ciclo">
-          <xs:simpleType>
-            <xs:restriction base="xs:unsignedShort">
-              <xs:enumeration value="1"/>  
-            </xs:restriction>
-          </xs:simpleType>
-        </xs:element>
-        <xs:element name="duracao">
-          <xs:simpleType>
-            <xs:restriction base="xs:string" />
-          </xs:simpleType>
-        </xs:element> 
+        <xs:element name="codigo" type="xs:string" />
+        <xs:element name="grau" type="xs:string" />
+        <xs:element name="ciclo" type="xs:unsignedByte" />
+        <xs:element name="duracao" type="xs:string" />
         <xs:element name="ano_inicio" type="xs:string" />
-        <xs:element name="regime">
-          <xs:simpleType>
-            <xs:restriction base="xs:string" >
-              <xs:enumeration value="diurno / laboral"/>
-              <xs:enumeration value="diurno ou noturno"/>
-            </xs:restriction>
-          </xs:simpleType>
-        </xs:element>
+        <xs:element name="regime" type="xs:string" />
         <xs:element name="horario" type="xs:string" />
         <xs:element name="propinas" type="xs:string" />
         <xs:element name="subsistema" type="xs:string" />
