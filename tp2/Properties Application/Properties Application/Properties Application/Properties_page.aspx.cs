@@ -13,7 +13,8 @@ namespace Properties_Application
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+            XmlDocument xdoc = Properties_xml.GetXmlDocument();
+            XmlDataSource1.XPath = "owners/owner[@land_register_number=" + DetailsView1.Rows[0].Cells[1].Text.ToString() + "]";
         }
 
         protected void DetailsView1_ItemInserting(object sender, DetailsViewInsertEventArgs e)
@@ -188,6 +189,17 @@ namespace Properties_Application
             DetailsView2.DataBind();
 
             DetailsView2.ChangeMode(DetailsViewMode.ReadOnly);
+        }
+
+        protected void DetailsView1_PageIndexChanging(object sender, DetailsViewPageEventArgs e)
+        {
+            XmlDocument xdoc = Properties_xml.GetXmlDocument();
+            XmlDataSource1.XPath = "owners/owner[@land_register_number=" + xdoc.DocumentElement.ChildNodes[e.NewPageIndex].Attributes["land_register_number"].Value + "]";
+        }
+
+        protected void DetailsView2_PageIndexChanging(object sender, DetailsViewPageEventArgs e)
+        {
+
         }
     }
 }

@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" runat="server">
-    <asp:DetailsView ID="DetailsView1" runat="server" AllowPaging="True" AutoGenerateRows="False" CellPadding="4" DataSourceID="Properties_xml" ForeColor="#333333" GridLines="None" Height="50px" Width="315px" style="margin-right: 3px; margin-top: 0px;" OnItemDeleting="DetailsView1_ItemDeleting" OnItemInserting="DetailsView1_ItemInserting" OnItemUpdating="DetailsView1_ItemUpdating">
+    <asp:DetailsView ID="DetailsView1" runat="server" AllowPaging="True" AutoGenerateRows="False" CellPadding="4" DataSourceID="Properties_xml" ForeColor="#333333" GridLines="None" Height="50px" Width="315px" style="margin-right: 3px; margin-top: 0px;" OnItemDeleting="DetailsView1_ItemDeleting" OnItemInserting="DetailsView1_ItemInserting" OnItemUpdating="DetailsView1_ItemUpdating" OnPageIndexChanging="DetailsView1_PageIndexChanging">
         <AlternatingRowStyle BackColor="White" />
         <CommandRowStyle BackColor="#D1DDF1" Font-Bold="True" />
         <EditRowStyle BackColor="#2461BF" />
@@ -35,16 +35,15 @@
         <RowStyle BackColor="#EFF3FB" />
     </asp:DetailsView>
     <br />
-    <asp:DetailsView ID="DetailsView2" runat="server" AutoGenerateRows="False" DataSourceID="XmlDataSource1" Height="50px" style="margin-left: 0px; margin-top: 0px" Width="328px" AllowPaging="True" OnItemDeleting="DetailsView2_ItemDeleting" OnItemInserting="DetailsView2_ItemInserting" OnItemUpdating="DetailsView2_ItemUpdating" CellPadding="4" ForeColor="#333333" GridLines="None">
+    <asp:DetailsView ID="DetailsView2" runat="server" AutoGenerateRows="False" DataSourceID="XmlDataSource1" Height="50px" style="margin-left: 0px; margin-top: 0px" Width="328px" AllowPaging="True" OnItemDeleting="DetailsView2_ItemDeleting" OnItemInserting="DetailsView2_ItemInserting" OnItemUpdating="DetailsView2_ItemUpdating" CellPadding="4" ForeColor="#333333" GridLines="None" OnPageIndexChanging="DetailsView2_PageIndexChanging">
         <AlternatingRowStyle BackColor="White" />
         <CommandRowStyle BackColor="#D1DDF1" Font-Bold="True" />
         <EditRowStyle BackColor="#2461BF" />
         <FieldHeaderStyle BackColor="#DEE8F5" Font-Bold="True" />
         <Fields>
-            <asp:BoundField DataField="tax_id" HeaderText="tax_id" SortExpression="tax_id" />
-            <asp:BoundField DataField="name" HeaderText="name" SortExpression="name" />
-            <asp:BoundField DataField="purchase_date" HeaderText="purchase_date" SortExpression="purchase_date" />
-            <asp:BoundField DataField="land_register_number" HeaderText="land_register_number" SortExpression="land_register_number" />
+            <asp:BoundField DataField="tax_id" HeaderText="Tax Identification Number" SortExpression="tax_id" />
+            <asp:BoundField DataField="name" HeaderText="Name" SortExpression="name" />
+            <asp:BoundField DataField="purchase_date" HeaderText="Purchase date" SortExpression="purchase_date" />
             <asp:TemplateField ShowHeader="False">
                 <EditItemTemplate>
                     <asp:LinkButton ID="LinkButton1" runat="server" CausesValidation="True" CommandName="Update" Text="Update"></asp:LinkButton>
