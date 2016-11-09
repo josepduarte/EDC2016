@@ -38,7 +38,7 @@ namespace Properties_Application
             XmlElement listOfProperties = null;
             foreach (XmlNode xn in sourcePropList)
             {
-                foreach (XmlNode xn_owner in xn.SelectNodes("property/Owners"))
+                foreach (XmlNode xn_owner in xn.SelectNodes("Owners"))
                 {
                     XmlNode tmp_owner = xn_owner.SelectSingleNode("owner");
                     if (!alreadyCreated)
@@ -47,31 +47,16 @@ namespace Properties_Application
                         alreadyCreated = true;
                     }
                     if (owner.Equals(tmp_owner[("tax_id")].InnerXml, StringComparison.OrdinalIgnoreCase)){
-                        propertyList.AppendChild(xn);
+                        XmlElement propprop = destino.CreateElement("property");
+                        propprop.AppendChild(xn);
+                        propertyList.AppendChild(propprop);
                         break;
                     }
 
                 }
                 Debug.WriteLine("DEBUUUUUUG: " + xn.InnerXml);
             }
-            /*
-            if (listOfProperties != null) {
-                XmlNodeList listProp = listOfProperties.SelectNodes(".");
-                foreach (XmlNode bla in listProp) {
-                    Debug.WriteLine("BLU LBLU LBU: " + bla.InnerXml);
-                }
-
-                XmlElement head = destino.DocumentElement;
-                Debug.WriteLine("BLALBLALBA: " + head.InnerXml);
-                foreach (XmlElement prop in listOfProperties)
-                {
-                    head.AppendChild(prop);
-                    Debug.WriteLine("PROEPORQWRPOIQROPIPWQR: " + prop.InnerXml);
-                }
-                Debug.WriteLine("BLALBLALBA: " + head.InnerXml);
-
-            }
-            */
+       
 
             Properties.Save();
             Properties.TransformFile = "~/App_Data/Property_XSL.xslt";

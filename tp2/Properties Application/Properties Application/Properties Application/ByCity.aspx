@@ -2,7 +2,7 @@
 <asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" runat="server">
-    <asp:XmlDataSource ID="Cities_XML" runat="server" DataFile="~/App_Data/Properties.xml" TransformFile="~/App_Data/Cities.xslt"></asp:XmlDataSource>
+    <asp:XmlDataSource ID="Cities_XML" runat="server" DataFile="~/App_Data/Properties.xml" TransformFile="~/App_Data/Cities.xslt" XPath="cities/city[not(@city=preceding:: city/@city)]"></asp:XmlDataSource>
     <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" DataSourceID="Cities_XML" DataTextField="city" DataValueField="city" OnSelectedIndexChanged="DropDownList1_SelectedIndexChanged1">
     </asp:DropDownList>
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Total asset value:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;

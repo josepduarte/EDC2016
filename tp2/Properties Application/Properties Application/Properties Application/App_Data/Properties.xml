@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <properties>
-  <property land_register_number="12345" value="20000012">
+  <property land_register_number="12345" value="2000001234">
     <address>
       <city>Aveiro2</city>
       <street>Á-dos-Ferreiros</street>
-      <port_number>102</port_number>
+      <port_number>1023</port_number>
     </address>
     <Owners>
       <owner>
@@ -16,6 +16,11 @@
         <tax_id>9212315</tax_id>
         <name>José Carlos</name>
         <purchase_date type="date">2012-05-11</purchase_date>
+      </owner>
+      <owner>
+        <tax_id>123</tax_id>
+        <name>Bal</name>
+        <purchase_date>12-5-2017</purchase_date>
       </owner>
     </Owners>
   </property>

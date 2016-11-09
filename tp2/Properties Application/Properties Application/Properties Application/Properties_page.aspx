@@ -1,4 +1,4 @@
-﻿﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Properties_page.aspx.cs" Inherits="Properties_Application.Properties_page" %>
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Mobile.Master" AutoEventWireup="true" CodeBehind="Properties_page.aspx.cs" Inherits="Properties_Application.Properties_page" %>
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <asp:DetailsView CssClass="GridStyle th table table-hover table-striped" ID="DetailsView1" runat="server" AllowPaging="True" AutoGenerateRows="False" CellPadding="4" DataSourceID="Properties_xml" ForeColor="#333333" GridLines="None" Height="50px" Width="315px" style="margin-right: 3px; margin-top: 0px;" OnItemDeleting="DetailsView1_ItemDeleting" OnItemInserting="DetailsView1_ItemInserting" OnItemUpdating="DetailsView1_ItemUpdating">  
         <AlternatingRowStyle BackColor="White" />
