@@ -7,3 +7,4 @@ To do if we have time:
 
 tp2c:
 	- se insiro ou faço update, de uma purchase date que já existe - redirect para uma página a dizer que não pode
+	- tirar a pk da details view dos owners

@@ -10,7 +10,7 @@
       <owner>
         <tax_id>9273215</tax_id>
         <name>José Duarte</name>
-        <purchase_date type="date">2015-05-11</purchase_date>
+        <purchase_date type="date">2015-05-18</purchase_date>
       </owner>
       <owner>
         <tax_id>9212315</tax_id>
@@ -21,6 +21,11 @@
         <tax_id>456465</tax_id>
         <name>Carlos</name>
         <purchase_date>12-05-2016</purchase_date>
+      </owner>
+      <owner>
+        <tax_id>123</tax_id>
+        <name>blabla</name>
+        <purchase_date>12-05-2019</purchase_date>
       </owner>
     </Owners>
   </property>

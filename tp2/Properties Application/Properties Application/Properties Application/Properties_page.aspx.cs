@@ -101,7 +101,6 @@ namespace Properties_Application
 
         protected void DetailsView2_ItemInserting(object sender, DetailsViewInsertEventArgs e)
         {
-           // XmlDataSource1.TransformFile = "";
             Properties_xml.TransformFile = "";
             XmlDocument xdoc = Properties_xml.GetXmlDocument();
 
@@ -126,8 +125,6 @@ namespace Properties_Application
             newOwner.AppendChild(purchase_date);
             ownerList.AppendChild(newOwner);
 
-            
-
             Debug.WriteLine("BLABLA" + ownerList.InnerXml);
 
             Properties_xml.Save();
@@ -146,7 +143,27 @@ namespace Properties_Application
 
         protected void DetailsView2_ItemUpdating(object sender, DetailsViewUpdateEventArgs e)
         {
-             
+            string tax_id = e.OldValues["tax_id"].ToString();
+
+            Properties_xml.TransformFile = "";
+            XmlDocument xdoc = Properties_xml.GetXmlDocument();
+
+            XmlElement property = xdoc.SelectSingleNode("properties/property[@land_register_number=" + DetailsView1.Rows[0].Cells[1].Text.ToString() + "]") as XmlElement;
+            
+            XmlElement owner = property.SelectSingleNode("Owners/owner[tax_id=" + tax_id + "]") as XmlElement;
+
+            owner.SelectSingleNode("name").InnerText = e.NewValues["name"].ToString();
+            owner.SelectSingleNode("purchase_date").InnerText = e.NewValues["purchase_date"].ToString();
+
+            Properties_xml.Save();
+            Properties_xml.TransformFile = "~/App_Data/Property_XSL.xslt";
+            e.Cancel = true;
+
+            XmlDataSource1.DataBind();
+            Properties_xml.DataBind();
+            DetailsView2.DataBind();
+
+            DetailsView2.ChangeMode(DetailsViewMode.ReadOnly);
         }
 
         protected void DetailsView2_ItemDeleting(object sender, DetailsViewDeleteEventArgs e)
