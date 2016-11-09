@@ -1,11 +1,8 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Mobile.Master" AutoEventWireup="true" CodeBehind="Properties_page.aspx.cs" Inherits="Properties_Application.Properties_page" %>
-<asp:Content ID="Content1" ContentPlaceHolderID="HeadContent" runat="server">
-</asp:Content>
-<asp:Content ID="Content2" ContentPlaceHolderID="FeaturedContent" runat="server">
-    <asp:DetailsView ID="DetailsView1" runat="server" AllowPaging="True" AutoGenerateRows="False" CellPadding="4" DataSourceID="Properties_xml" ForeColor="#333333" GridLines="None" Height="50px" Width="315px" style="margin-right: 3px; margin-top: 0px;" OnItemDeleting="DetailsView1_ItemDeleting" OnItemInserting="DetailsView1_ItemInserting" OnItemUpdating="DetailsView1_ItemUpdating">
+﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Properties_page.aspx.cs" Inherits="Properties_Application.Properties_page" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
+    <asp:DetailsView CssClass="GridStyle th table table-hover table-striped" ID="DetailsView1" runat="server" AllowPaging="True" AutoGenerateRows="False" CellPadding="4" DataSourceID="Properties_xml" ForeColor="#333333" GridLines="None" Height="50px" Width="315px" style="margin-right: 3px; margin-top: 0px;" OnItemDeleting="DetailsView1_ItemDeleting" OnItemInserting="DetailsView1_ItemInserting" OnItemUpdating="DetailsView1_ItemUpdating">  
         <AlternatingRowStyle BackColor="White" />
         <CommandRowStyle BackColor="#D1DDF1" Font-Bold="True" />
-        <EditRowStyle BackColor="#2461BF" />
         <FieldHeaderStyle BackColor="#DEE8F5" Font-Bold="True" />
         <Fields>
             <asp:BoundField DataField="land_register_number" HeaderText="Land register number" SortExpression="land_register_number" />
@@ -29,13 +26,13 @@
                 </ItemTemplate>
             </asp:TemplateField>
         </Fields>
-        <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-        <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-        <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+        <FooterStyle Font-Bold="True" BorderStyle="Double" />
+        <HeaderStyle Font-Bold="True" ForeColor="White" />
+        <PagerStyle  HorizontalAlign ="Center" CssClass="pagination-ys" />
         <RowStyle BackColor="#EFF3FB" />
     </asp:DetailsView>
     <br />
-    <asp:DetailsView ID="DetailsView2" runat="server" AutoGenerateRows="False" DataSourceID="XmlDataSource1" Height="50px" style="margin-left: 0px; margin-top: 0px" Width="328px" AllowPaging="True" OnItemDeleting="DetailsView2_ItemDeleting" OnItemInserting="DetailsView2_ItemInserting" OnItemUpdating="DetailsView2_ItemUpdating" CellPadding="4" ForeColor="#333333" GridLines="None">
+    <asp:DetailsView CssClass="GridStyle th table table-hover table-striped" ID="DetailsView2" runat="server" AutoGenerateRows="False" DataSourceID="XmlDataSource1" Height="50px" style="margin-left: 0px; margin-top: 0px" Width="328px" AllowPaging="True" OnItemDeleting="DetailsView2_ItemDeleting" OnItemInserting="DetailsView2_ItemInserting" OnItemUpdating="DetailsView2_ItemUpdating" CellPadding="4" ForeColor="#333333" GridLines="None">
         <AlternatingRowStyle BackColor="White" />
         <CommandRowStyle BackColor="#D1DDF1" Font-Bold="True" />
         <EditRowStyle BackColor="#2461BF" />
@@ -61,15 +58,12 @@
                 </ItemTemplate>
             </asp:TemplateField>
         </Fields>
-        <FooterStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
         <HeaderStyle BackColor="#507CD1" Font-Bold="True" ForeColor="White" />
-        <PagerStyle BackColor="#2461BF" ForeColor="White" HorizontalAlign="Center" />
+        <PagerStyle  HorizontalAlign ="Center" CssClass="pagination-ys" />
         <RowStyle BackColor="#EFF3FB" />
     </asp:DetailsView>
     <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/App_Data/Properties.xml" TransformFile="~/App_Data/Owners.xslt" EnableCaching="False" XPath="owners/owner"></asp:XmlDataSource>
     <asp:XmlDataSource ID="Properties_xml" runat="server" DataFile="~/App_Data/Properties.xml" TransformFile="~/App_Data/Property_XSL.xslt" XPath="Properties/Property"></asp:XmlDataSource>
     <p>
     </p>
-</asp:Content>
-<asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
 </asp:Content>
