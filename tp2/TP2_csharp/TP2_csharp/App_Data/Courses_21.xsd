@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="cursos">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="curso">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="guid">
+                <xs:simpleType>
+                  <xs:restriction base="xs:unsignedShort">
+                    <xs:minInclusive value="1"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="codigo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="[0-9][0-9][0-9][0-9][/][0-9][0-9][0-9][0-9]"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="nome" type="xs:string"/>
+              <xs:element name="grau">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:enumeration value="Licenciatura"/>
+                    <xs:enumeration value="Mestrado Integrado"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="ciclo">
+                <xs:simpleType>
+                  <xs:restriction base="xs:unsignedShort">
+                    <xs:enumeration value="1"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="departamentos">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="departamento" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="areascientificas">
+                <xs:complexType>
+                  <xs:sequence minOccurs="1">
+                    <xs:element name="areacientifica" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="areasformacao">
+                <xs:complexType>
+                  <xs:sequence minOccurs="1">
+                    <xs:element name="areaformacao" type="xs:string" />
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="regime">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string" >
+                    <xs:enumeration value="diurno / laboral"/>
+                    <xs:enumeration value="diurno ou noturno"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="local" >
+                <xs:simpleType>
+                  <xs:restriction base="xs:string" >
+                    <xs:enumeration value="ISCA, Aveiro (junto ao Campus Universitário de Santiago)"/>
+                    <xs:enumeration value="Campus Universitário de Santiago, Aveiro"/>
+                    <xs:enumeration value="Escola Superior Aveiro Norte, Oliveira de Azeméis"/>
+                    <xs:enumeration value="ESTGA, Águeda"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+              <xs:element name="provas">
+                <xs:complexType mixed="true">
+                  <xs:sequence minOccurs="1">
+                    <xs:choice>
+                      <xs:element name="br" />
+                      <xs:element name="strong" type="xs:string" />
+                      <xs:element name="ul">
+                        <xs:complexType>
+                          <xs:sequence>
+                            <xs:element name="li" type="xs:string" />
+                          </xs:sequence>
+                        </xs:complexType>
+                      </xs:element>
+                    </xs:choice>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="m23">
+                <xs:simpleType>
+                  <xs:restriction base="xs:string">
+                    <xs:pattern value="True|False"/>
+                  </xs:restriction>
+                </xs:simpleType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
