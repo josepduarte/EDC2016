@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Xml;
+using System.Diagnostics;
 
 namespace Properties_Application
 {
@@ -95,6 +96,62 @@ namespace Properties_Application
 
             DetailsView1.DataBind();
             DetailsView1.ChangeMode(DetailsViewMode.ReadOnly);
+        }
+
+
+        protected void DetailsView2_ItemInserting(object sender, DetailsViewInsertEventArgs e)
+        {
+           // XmlDataSource1.TransformFile = "";
+            Properties_xml.TransformFile = "";
+            XmlDocument xdoc = Properties_xml.GetXmlDocument();
+
+            XmlElement property = xdoc.SelectSingleNode("properties/property[@land_register_number=" + DetailsView1.Rows[0].Cells[1].Text.ToString() + "]") as XmlElement;
+
+            XmlElement ownerList = property.SelectSingleNode("Owners") as XmlElement;
+            if (ownerList == null)
+            {
+                ownerList = xdoc.CreateElement("Owners");
+                property.AppendChild(ownerList);
+            }
+
+            XmlElement newOwner = xdoc.CreateElement("owner");
+            XmlElement taxidOwner = xdoc.CreateElement("tax_id");
+            XmlElement nameOwner = xdoc.CreateElement("name");
+            XmlElement purchase_date = xdoc.CreateElement("purchase_date");
+            taxidOwner.InnerText = e.Values["tax_id"].ToString();
+            nameOwner.InnerText = e.Values["name"].ToString();
+            purchase_date.InnerText = e.Values["purchase_date"].ToString();
+            newOwner.AppendChild(taxidOwner);
+            newOwner.AppendChild(nameOwner);
+            newOwner.AppendChild(purchase_date);
+            ownerList.AppendChild(newOwner);
+
+            
+
+            Debug.WriteLine("BLABLA" + ownerList.InnerXml);
+
+            Properties_xml.Save();
+            Properties_xml.TransformFile = "~/App_Data/Property_XSL.xslt";
+            e.Cancel = true;
+
+            XmlDataSource1.DataBind();
+            Properties_xml.DataBind();
+            DetailsView2.DataBind();
+            
+            DetailsView2.PageIndex = ownerList.ChildNodes.Count - 1;
+            DetailsView2.ChangeMode(DetailsViewMode.ReadOnly);
+
+        
+        }
+
+        protected void DetailsView2_ItemUpdating(object sender, DetailsViewUpdateEventArgs e)
+        {
+             
+        }
+
+        protected void DetailsView2_ItemDeleting(object sender, DetailsViewDeleteEventArgs e)
+        {
+
         }
     }
 }

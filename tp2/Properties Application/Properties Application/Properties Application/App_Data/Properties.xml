@@ -12,18 +12,30 @@
         <name>José Duarte</name>
         <purchase_date type="date">2015-05-11</purchase_date>
       </owner>
+      <owner>
+        <tax_id>9212315</tax_id>
+        <name>José Carlos</name>
+        <purchase_date type="date">2012-05-11</purchase_date>
+      </owner>
+      <owner>
+        <tax_id>456465</tax_id>
+        <name>Carlos</name>
+        <purchase_date>12-05-2016</purchase_date>
+      </owner>
     </Owners>
   </property>
-  <property land_register_number="4321" value="2012300">
+  <property land_register_number="12124" value="2000023">
     <address>
       <city>Ponte de Lima</city>
       <street>Rua do Bruno</street>
-      <port_number>203</port_number>
+      <port_number>402</port_number>
     </address>
-    <owner>
-      <tax_id>1213215</tax_id>
-      <name>Bruno Alves</name>
-      <purchase_date type="date">2015-05-11</purchase_date>
-    </owner>
+    <Owners>
+      <owner>
+        <tax_id>12123215</tax_id>
+        <name>Bruno Alves</name>
+        <purchase_date type="date">2011-05-11</purchase_date>
+      </owner>
+    </Owners>
   </property>
 </properties>

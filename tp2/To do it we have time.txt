@@ -2,4 +2,8 @@ To do if we have time:
 	- Add a field in dropdownlist "ALL"
 	- OnIndexPageChanged using the right way
 	- estilos
-	- DETAILS VIEW MAL FEITA - cena mal implementada
+
+
+
+tp2c:
+	- se insiro ou faço update, de uma purchase date que já existe - redirect para uma página a dizer que não pode

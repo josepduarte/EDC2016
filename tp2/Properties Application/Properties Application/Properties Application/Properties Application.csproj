@@ -217,6 +217,9 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
+    <Content Include="App_Data\Owners.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Properties_page.aspx" />
     <Content Include="App_Data\Property_XSL.xslt">
       <SubType>Designer</SubType>
