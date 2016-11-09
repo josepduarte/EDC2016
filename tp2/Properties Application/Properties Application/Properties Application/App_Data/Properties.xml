@@ -17,16 +17,6 @@
         <name>José Carlos</name>
         <purchase_date type="date">2012-05-11</purchase_date>
       </owner>
-      <owner>
-        <tax_id>456465</tax_id>
-        <name>Carlos</name>
-        <purchase_date>12-05-2016</purchase_date>
-      </owner>
-      <owner>
-        <tax_id>123</tax_id>
-        <name>blabla</name>
-        <purchase_date>12-05-2019</purchase_date>
-      </owner>
     </Owners>
   </property>
   <property land_register_number="12124" value="2000023">

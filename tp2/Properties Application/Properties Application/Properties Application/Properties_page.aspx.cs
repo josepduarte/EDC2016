@@ -168,7 +168,26 @@ namespace Properties_Application
 
         protected void DetailsView2_ItemDeleting(object sender, DetailsViewDeleteEventArgs e)
         {
+            Properties_xml.TransformFile = "";
+            XmlDocument xdoc = Properties_xml.GetXmlDocument();
 
+            XmlElement property = xdoc.SelectSingleNode("properties/property[@land_register_number=" + DetailsView1.Rows[0].Cells[1].Text.ToString() + "]") as XmlElement;
+
+            XmlElement ownerList = property.SelectSingleNode("Owners") as XmlElement;
+
+            XmlElement owner = property.SelectSingleNode("Owners/owner[tax_id=" + e.Values["tax_id"] + "]") as XmlElement;
+
+            ownerList.RemoveChild(owner);
+
+            Properties_xml.Save();
+            Properties_xml.TransformFile = "~/App_Data/Property_XSL.xslt";
+            e.Cancel = true;
+
+            XmlDataSource1.DataBind();
+            Properties_xml.DataBind();
+            DetailsView2.DataBind();
+
+            DetailsView2.ChangeMode(DetailsViewMode.ReadOnly);
         }
     }
 }
