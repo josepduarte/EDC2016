@@ -204,6 +204,10 @@
     <Content Include="App_Data\Cities.xslt">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="App_Data\Property_XSL_all_info.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="App_Data\temp_property.xml" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -224,6 +228,7 @@
     <Content Include="App_Data\Owners.xslt">
       <SubType>Designer</SubType>
     </Content>
+    <Content Include="Properties_and_Owners.aspx" />
     <Content Include="Properties_page.aspx" />
     <Content Include="App_Data\Property_XSL.xslt">
       <SubType>Designer</SubType>
@@ -411,6 +416,13 @@
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties_and_Owners.aspx.cs">
+      <DependentUpon>Properties_and_Owners.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Properties_and_Owners.aspx.designer.cs">
+      <DependentUpon>Properties_and_Owners.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties_page.aspx.cs">
       <DependentUpon>Properties_page.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
