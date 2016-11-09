@@ -31,6 +31,18 @@
         <name>Bruno Alves</name>
         <purchase_date type="date">2011-05-11</purchase_date>
       </owner>
+      <owner>
+        <tax_id>456465</tax_id>
+        <name>Carlos</name>
+        <purchase_date>12-05-2016</purchase_date>
+      </owner>
     </Owners>
+  </property>
+  <property land_register_number="12345" value="1241241">
+    <address>
+      <city>Aveiro2</city>
+      <street>Bernardos</street>
+      <port_number>1234</port_number>
+    </address>
   </property>
 </properties>
