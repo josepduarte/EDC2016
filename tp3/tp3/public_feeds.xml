@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+  <channel>
+    <title>Publico.pt - Geral</title>
+    <link>//www.publico.pt</link>
+    <description>Descrição</description>
+    <copyright>© 2016 PÚBLICO Comunicação Social SA</copyright>
+    <language>pt-pt</language>
+    <lastBuildDate>Wed, 16 Nov 2016 09:59:44 GMT</lastBuildDate>
+    <category>Geral</category>
+    <ttl>5</ttl>
+    <managingEditor>ultimahora@publico.pt (Última Hora)</managingEditor>
+    <webMaster>webmaster@publico.pt (Webmaster)</webMaster>
+    <image>
+      <url>http://static.publico.pt/files/header/img/publico.png</url>
+      <title>Publico.pt - Escolha do Editor</title>
+      <link>//www.publico.pt</link>
+      <width>85</width>
+    </image>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/PublicoRSS" />
+    <feedburner:info uri="publicorss" />
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>Futuro do bairro de pescadores agita debate público em Olhão</title>
+      <description>Plano de Pormenor da Zona Histórica de Olhão põe em causa autenticidade dos bairros da Barreta e dos Sete Cotovelos, dizem os críticos.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/6u0JqZwJ2ug" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/local/noticia/futuro-do-bairro-de-pescadores-agita-debate-publico-em-olhao-1751248</link>
+      <category>Local</category>
+      <pubDate>Wed, 16 Nov 2016 09:38:59 GMT</pubDate>
+      <dc:creator>Idálio Revez</dc:creator>
+      <guid>//www.publico.pt/local/noticia/futuro-do-bairro-de-pescadores-agita-debate-publico-em-olhao-1751248</guid>
+    </item>
+    <item>
+      <title>Portugal espera arrecadar até 1500 milhões em dívida a seis e a 12 meses</title>
+      <description>&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/4q50BM0AksU" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/economia/noticia/portugal-espera-arrecadar-ate-1500-milhoes-em-divida-a-seis-e-a-12-meses-1751328</link>
+      <category>Economia</category>
+      <pubDate>Wed, 16 Nov 2016 09:17:45 GMT</pubDate>
+      <dc:creator>Lusa</dc:creator>
+      <guid>//www.publico.pt/economia/noticia/portugal-espera-arrecadar-ate-1500-milhoes-em-divida-a-seis-e-a-12-meses-1751328</guid>
+    </item>
+    <item>
+      <title>"A solidariedade não é uma prenda para os refugiados. É um dever legal da UE"</title>
+      <description>O politólogo, filósofo, sociólogo francês Sami Naïr, especialista em questões migratórias, defende que seria melhor a Europa preocupar-se menos com a assistência aos refugiados e deixá-los seguir caminho.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/CUUCwmCBqfE" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/mundo/noticia/a-solidariedade-nao-e-uma-prenda-para-os-refugiados-e-um-dever-legal-da-ue-1751269</link>
+      <category>Mundo</category>
+      <pubDate>Wed, 16 Nov 2016 09:12:00 GMT</pubDate>
+      <dc:creator>Maria João Guimarães</dc:creator>
+      <guid>//www.publico.pt/mundo/noticia/a-solidariedade-nao-e-uma-prenda-para-os-refugiados-e-um-dever-legal-da-ue-1751269</guid>
+    </item>
+    <item>
+      <title>A fisicalidade rock dos Preoccupations</title>
+      <description>&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/SwJqswS_xQU" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/culturaipsilon/noticia/a-fisicalidade-rock-dos-preoccupations-1750659</link>
+      <category>Cultura-Ípsilon</category>
+      <pubDate>Wed, 16 Nov 2016 09:00:17 GMT</pubDate>
+      <dc:creator>Vítor Belanciano</dc:creator>
+      <guid>//www.publico.pt/culturaipsilon/noticia/a-fisicalidade-rock-dos-preoccupations-1750659</guid>
+    </item>
+    <item>
+      <title>Mais um atraso no "Brexit"? Juíza do Supremo alerta que pode ser necessária substituição integral da lei</title>
+      <description>Palavras de Lady Hale num discurso perante estudantes em Kuala Lumpur levantam hipótese de saída do Reino Unido da União Europeia ser ainda mais atrasada.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/LmBbV_Jtr50" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/mundo/noticia/mais-um-atraso-no-brexit-juiza-do-supremo-alerta-que-pode-ser-necessaria-substituicao-integral-da-lei-1751326</link>
+      <category>Mundo</category>
+      <pubDate>Wed, 16 Nov 2016 08:47:45 GMT</pubDate>
+      <dc:creator>PÚBLICO</dc:creator>
+      <guid>//www.publico.pt/mundo/noticia/mais-um-atraso-no-brexit-juiza-do-supremo-alerta-que-pode-ser-necessaria-substituicao-integral-da-lei-1751326</guid>
+    </item>
+    <item>
+      <title>Há reforços de Verão que ainda não conseguiram convencer</title>
+      <description>Benfica, FC Porto, Sporting e Sp. Braga apresentaram 35 caras novas no início da época mas são poucos os que se tornaram indiscutíveis nas respectivas equipas. Há contratações milionárias com utilização residual&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/36FsttJSQF8" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/desporto/noticia/ha-reforcos-de-verao-que-ainda-nao-conseguiram-convencer-1751294</link>
+      <category>Desporto</category>
+      <pubDate>Wed, 16 Nov 2016 08:44:46 GMT</pubDate>
+      <dc:creator>Tiago Pimentel</dc:creator>
+      <guid>//www.publico.pt/desporto/noticia/ha-reforcos-de-verao-que-ainda-nao-conseguiram-convencer-1751294</guid>
+    </item>
+    <item>
+      <title>Roseta dá razão ao PSD: inquérito sobre a torre de Picoas está incompleto</title>
+      <description>Distanciando-se de Fernando Medina, a presidente da Assembleia Municipal de Lisboa alertou "para a necessidade de ser dado cumprimento integral" ao despacho que determinou a abertura do inquérito.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/38SZT5NfAbY" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/local/noticia/roseta-da-razao-ao-psd-inquerito-sobre-a-torre-de-picoas-esta-incompleto-1751275</link>
+      <category>Local</category>
+      <pubDate>Wed, 16 Nov 2016 08:44:11 GMT</pubDate>
+      <dc:creator>Inês Boaventura</dc:creator>
+      <guid>//www.publico.pt/local/noticia/roseta-da-razao-ao-psd-inquerito-sobre-a-torre-de-picoas-esta-incompleto-1751275</guid>
+    </item>
+    <item>
+      <title>A “febre” Elena Ferrante, agora em documentário</title>
+      <description>Roberto Saviano, Jonathan Franzen ou Elizabeth Strout ajudam o realizador Giacomo Durzi a diagnosticar o que causa esta &lt;i&gt;Ferrante Fever&lt;/i&gt;&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/2o5qPAR8Id4" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/culturaipsilon/noticia/a-febre-elena-ferrante-agora-em-documentario-1751103</link>
+      <category>Cultura-Ípsilon</category>
+      <pubDate>Wed, 16 Nov 2016 08:44:10 GMT</pubDate>
+      <dc:creator>Joana Amaral Cardoso</dc:creator>
+      <guid>//www.publico.pt/culturaipsilon/noticia/a-febre-elena-ferrante-agora-em-documentario-1751103</guid>
+    </item>
+    <item>
+      <title>“Tornei o transformismo respeitável”</title>
+      <description>Fernando Santos/Deborah Kristal, actor-transformista: "Nos bares &lt;i&gt;gay&lt;/i&gt;, o público costumava ser muito cruel com os transformistas." Um testemunho na primeira pessoa.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/USjH2iDSoyU" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/sociedade/noticia/nunca-tive-um-plano-como-artista-pode-ter-sido-esse-o-meu-segredo-1750874</link>
+      <category>Sociedade</category>
+      <pubDate>Wed, 16 Nov 2016 08:44:00 GMT</pubDate>
+      <dc:creator>Bruno Horta</dc:creator>
+      <guid>//www.publico.pt/sociedade/noticia/nunca-tive-um-plano-como-artista-pode-ter-sido-esse-o-meu-segredo-1750874</guid>
+    </item>
+    <item>
+      <title>O &lt;i&gt;action movie&lt;/i&gt; contemplativo de Paul Verhoeven e Isabelle Huppert</title>
+      <description>Paul Verhoeven “isabelle-hupperta”. É a lenta mas persistente vertigem do extático &lt;i&gt;Elle/Ela&lt;/i&gt;: uma actriz abandona-se ao seu realizador para, finalmente, o dirigir – transformando-se ela no princípio da &lt;i&gt;mise-en-scène&lt;/i&gt;.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/mBwWJnBbBOc" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/culturaipsilon/noticia/um-action-movie-contemplativo-1751083</link>
+      <category>Cultura-Ípsilon</category>
+      <pubDate>Wed, 16 Nov 2016 08:35:37 GMT</pubDate>
+      <dc:creator>Vasco Câmara</dc:creator>
+      <guid>//www.publico.pt/culturaipsilon/noticia/um-action-movie-contemplativo-1751083</guid>
+    </item>
+  </channel>
+</rss>

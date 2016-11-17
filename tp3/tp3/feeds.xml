@@ -1,0 +1,5 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<feeds>
+  <feed description="Público" DataFile="~/public_feeds" />
+  <feed description="Jornal de Notícias" DataFile="~/jn_feeds" />
+</feeds>
