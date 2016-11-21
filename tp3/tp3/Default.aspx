@@ -31,7 +31,7 @@
     
 
 
-    <asp:DetailsView ID="DetailsView2" runat="server" AutoGenerateRows="False" DataSourceID="XmlDataSource3" Height="50px" Width="125px">
+    <asp:DetailsView ID="DetailsView2" runat="server" AutoGenerateRows="False" DataSourceID="XmlDataSource3" Height="50px" Width="520px">
         <Fields>
             <asp:BoundField DataField="title" HeaderText="title" SortExpression="title" />
             <asp:BoundField DataField="pubDate" HeaderText="pubDate" SortExpression="pubDate" />

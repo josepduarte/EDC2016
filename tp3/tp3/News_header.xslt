@@ -17,7 +17,7 @@
           </xsl:attribute>
           
           <xsl:attribute name="link">
-            <xsl:value-of select="link"/>
+            <xsl:value-of select="substring-after(link,'//')"/>
           </xsl:attribute>
           
           <xsl:attribute name="description">
@@ -29,11 +29,11 @@
           </xsl:attribute>
           
           <xsl:attribute name="managingEditor">
-            <xsl:value-of select="managingEditor"/>
+            <xsl:value-of select="substring-before(managingEditor,'(')"/>
           </xsl:attribute>
           
           <xsl:attribute name="webMaster">
-            <xsl:value-of select="webMaster"/>
+            <xsl:value-of select="substring-before(webMaster,'(')"/>
           </xsl:attribute>
           
           <xsl:attribute name="category">

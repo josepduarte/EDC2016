@@ -22,7 +22,7 @@
               <xsl:value-of select="category"/>
             </xsl:attribute>
             <xsl:attribute name="description">
-              <xsl:value-of select="description"/>
+              <xsl:value-of select="substring-before(description,'.')"/>
             </xsl:attribute>
             
           </item>
