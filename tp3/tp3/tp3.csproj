@@ -170,9 +170,15 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="App_Data\manageFeeds.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Content\mine.css" />
     <Content Include="manageFeeds.aspx" />
     <Content Include="feeds.xml" />
+    <Content Include="App_Data\manageFeeds.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="News_header.xslt">
       <SubType>Designer</SubType>
     </Content>
@@ -194,7 +200,9 @@
     <Content Include="News_items1.xslt">
       <SubType>Designer</SubType>
     </Content>
-    <Content Include="public_feeds.xml" />
+    <Content Include="public_feeds.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="rss_logo.jpg" />
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
@@ -251,6 +259,9 @@
     </None>
     <None Include="Web.Release.config">
       <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="App_Data\manage_feeds_schema.xsd">
+      <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
@@ -419,9 +430,7 @@
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="App_Data\" />
-  </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

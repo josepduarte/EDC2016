@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
@@ -17,7 +18,9 @@ namespace tp3
             XmlDocument doc = new XmlDocument();
             doc.Load(reader);
             reader.Close();
-            doc.Save("C:\\Users\\Bruno Alves\\Documents\\GitHub\\EDC2016\\tp3\\tp3\\public_feeds.xml");
+            string path = HttpContext.Current.Server.MapPath("~/App_Data/public_feeds");
+            Debug.WriteLine("DEBUUUUUUG: " + path);
+            doc.Save(path);
         }
 
         protected void Button1_Click(object sender, EventArgs e)

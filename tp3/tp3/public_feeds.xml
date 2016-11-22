@@ -4,11 +4,11 @@
 <rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
   <channel>
     <title>Publico.pt - Geral</title>
-    <link>//www.publico.pt</link>
+    <link>http://teste.publico.pt:1081</link>
     <description>Descrição</description>
     <copyright>© 2016 PÚBLICO Comunicação Social SA</copyright>
     <language>pt-pt</language>
-    <lastBuildDate>Mon, 21 Nov 2016 23:49:26 GMT</lastBuildDate>
+    <lastBuildDate>Tue, 22 Nov 2016 13:26:28 GMT</lastBuildDate>
     <category>Geral</category>
     <ttl>5</ttl>
     <managingEditor>ultimahora@publico.pt (Última Hora)</managingEditor>
@@ -16,101 +16,111 @@
     <image>
       <url>http://static.publico.pt/files/header/img/publico.png</url>
       <title>Publico.pt - Escolha do Editor</title>
-      <link>//www.publico.pt</link>
+      <link>http://teste.publico.pt:1081</link>
       <width>85</width>
     </image>
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/PublicoRSS" />
     <feedburner:info uri="publicorss" />
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
     <item>
-      <title>Supremo Tribunal do Brasil nega pedido da Oi para suspender acção judicial</title>
-      <description>&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/BVzBDFl71vk" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/economia/noticia/supremo-tribunal-do-brasil-nega-pedido-da-oi-para-suspender-accao-judicial-1752056</link>
-      <category>Economia</category>
-      <pubDate>Mon, 21 Nov 2016 23:42:58 GMT</pubDate>
+      <title>Câmaras de Porto e Gaia e IP partilham manutenção da Ponte do Infante</title>
+      <description>As duas autarquias sempre manifestaram a sua falta de capacidade de acompanhar devidamente a manutenção da ponte.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/tovtCedbI4o" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/tovtCedbI4o/camaras-de-porto-e-gaia-e-ip-partilham-manutencao-da-ponte-do-infante-1752099</link>
+      <category>Local</category>
+      <pubDate>Tue, 22 Nov 2016 13:16:35 GMT</pubDate>
       <dc:creator>Lusa</dc:creator>
-      <guid>//www.publico.pt/economia/noticia/supremo-tribunal-do-brasil-nega-pedido-da-oi-para-suspender-accao-judicial-1752056</guid>
+      <guid isPermaLink="false">//www.publico.pt/local/noticia/camaras-de-porto-e-gaia-e-ip-partilham-manutencao-da-ponte-do-infante-1752099</guid>
+      <feedburner:origLink>http://www.publico.pt/local/noticia/camaras-de-porto-e-gaia-e-ip-partilham-manutencao-da-ponte-do-infante-1752099</feedburner:origLink>
     </item>
     <item>
-      <title>Director do programa para a infecção VIH/Sida demitiu-se</title>
-      <description>Kamal Mansinho dirigia os programas para a infecção VIH/Sida e para as hepatites virais.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/vbP1xsaZkoI" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/sociedade/noticia/director-do-programa-para-a-infeccao-vihsida-abandona-o-cargo-1752037</link>
+      <title>Medicamentos 13% mais baratos nos hipermercados</title>
+      <description>Estudo da Deco analisou 24 fármacos não sujeitos a receita médica.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/3UEdznFHcD4" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/3UEdznFHcD4/medicamentos-13-mais-baratos-nos-hipermercados-1752093</link>
       <category>Sociedade</category>
-      <pubDate>Mon, 21 Nov 2016 23:11:50 GMT</pubDate>
-      <dc:creator>Alexandra Campos</dc:creator>
-      <guid>//www.publico.pt/sociedade/noticia/director-do-programa-para-a-infeccao-vihsida-abandona-o-cargo-1752037</guid>
+      <pubDate>Tue, 22 Nov 2016 12:58:33 GMT</pubDate>
+      <dc:creator>Lusa</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/sociedade/noticia/medicamentos-13-mais-baratos-nos-hipermercados-1752093</guid>
+      <feedburner:origLink>http://www.publico.pt/sociedade/noticia/medicamentos-13-mais-baratos-nos-hipermercados-1752093</feedburner:origLink>
     </item>
     <item>
-      <title>Um largo (em Lisboa) chamado José Mariano Gago</title>
-      <description>Homenagem é esta semana, no Dia Nacional da Cultura Científica, criado em 1996 pelo antigo ministro da Ciência.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/HoNkcLxrhu4" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/ciencia/noticia/um-largo-em-lisboa-chamado-jose-mariano-gago-1752047</link>
-      <category>Ciência</category>
-      <pubDate>Mon, 21 Nov 2016 23:04:41 GMT</pubDate>
-      <dc:creator>Teresa Firmino</dc:creator>
-      <guid>//www.publico.pt/ciencia/noticia/um-largo-em-lisboa-chamado-jose-mariano-gago-1752047</guid>
+      <title>Cinco milhões de euros foram roubados a duas mulheres perto de Paris</title>
+      <description>Os dois assaltantes utilizaram gás lacrimogéneo e levaram jóias, roupa e dinheiro que valiam pelo menos cinco milhões de euros.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/V0tkDNg4XQM" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/V0tkDNg4XQM/cinco-milhoes-de-euros-foram-roubados-a-duas-mulheres-perto-de-paris-1752089</link>
+      <category>Mundo</category>
+      <pubDate>Tue, 22 Nov 2016 12:48:47 GMT</pubDate>
+      <dc:creator>PÚBLICO</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/mundo/noticia/cinco-milhoes-de-euros-foram-roubados-a-duas-mulheres-perto-de-paris-1752089</guid>
+      <feedburner:origLink>http://www.publico.pt/mundo/noticia/cinco-milhoes-de-euros-foram-roubados-a-duas-mulheres-perto-de-paris-1752089</feedburner:origLink>
     </item>
     <item>
-      <title>Empresas de dispositivos médicos contestam taxa extraordinária</title>
-      <description>Se avançar nos moldes previstos, contribuição especial representará uma poupança da ordem dos 35 milhões de euros&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/NkBiu5n12U0" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/economia/noticia/empresas-de-dispositivos-medicos-contestam-taxa-extraordinaria-1752008</link>
-      <category>Economia</category>
-      <pubDate>Mon, 21 Nov 2016 22:42:58 GMT</pubDate>
-      <dc:creator>Alexandra Campos</dc:creator>
-      <guid>//www.publico.pt/economia/noticia/empresas-de-dispositivos-medicos-contestam-taxa-extraordinaria-1752008</guid>
+      <title>Rússia acusa Ucrânia de raptar dois soldados da Crimeia</title>
+      <description>Governo russo diz tratar-se de um “acto de grande provocação”, mas Kiev defende que apenas deteve “desertores”.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/doH7H8eQNwE" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/doH7H8eQNwE/russia-acusa-ucrania-de-raptar-dois-soldados-da-crimeia-1752090</link>
+      <category>Mundo</category>
+      <pubDate>Tue, 22 Nov 2016 12:45:27 GMT</pubDate>
+      <dc:creator>PÚBLICO</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/mundo/noticia/russia-acusa-ucrania-de-raptar-dois-soldados-da-crimeia-1752090</guid>
+      <feedburner:origLink>http://www.publico.pt/mundo/noticia/russia-acusa-ucrania-de-raptar-dois-soldados-da-crimeia-1752090</feedburner:origLink>
     </item>
     <item>
-      <title>Primeiro prémio da Lotaria Clássica saiu ao número 67.328</title>
-      <description>&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/2s1Anc8Gi2I" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/sociedade/noticia/primeiro-premio-da-lotaria-classica-saiu-ao-numero-67328-1752051</link>
+      <title>Sindicato do Ensino Superior contesta precariedade com petição</title>
+      <description>Existem mais de 14 mil professores com vínculos precários. Estrutura quer que todos os professores universitários que estejam a suprir necessidades permanentes tenham vínculo estável.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/gZ0wfV1_WoA" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/gZ0wfV1_WoA/sindicato-do-ensino-superior-contesta-precariedade-com-peticao-1752092</link>
       <category>Sociedade</category>
-      <pubDate>Mon, 21 Nov 2016 22:10:30 GMT</pubDate>
-      <dc:creator>Lusa</dc:creator>
-      <guid>//www.publico.pt/sociedade/noticia/primeiro-premio-da-lotaria-classica-saiu-ao-numero-67328-1752051</guid>
+      <pubDate>Tue, 22 Nov 2016 12:43:20 GMT</pubDate>
+      <dc:creator>Samuel Silva</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/sociedade/noticia/sindicato-do-ensino-superior-contesta-precariedade-com-peticao-1752092</guid>
+      <feedburner:origLink>http://www.publico.pt/sociedade/noticia/sindicato-do-ensino-superior-contesta-precariedade-com-peticao-1752092</feedburner:origLink>
     </item>
     <item>
-      <title>Socialistas portugueses querem que Schulz continue à frente do Parlamento Europeu</title>
-      <description>Eleições são em Janeiro, mas Bruxelas já ferve com a falta de acordo entre o PPE e os Socialistas &amp; Democratas. Teme-se um impasse institucional e quem pode beneficiar são os liberais.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/Coixkv5IDBE" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/politica/noticia/socialistas-portugueses-querem-que-schulz-continue-a-frente-do-parlamento-europeu-1752048</link>
-      <category>Política</category>
-      <pubDate>Mon, 21 Nov 2016 22:00:49 GMT</pubDate>
-      <dc:creator>Leonete Botelho</dc:creator>
-      <guid>//www.publico.pt/politica/noticia/socialistas-portugueses-querem-que-schulz-continue-a-frente-do-parlamento-europeu-1752048</guid>
-    </item>
-    <item>
-      <title>Klinsmann deixa comando da selecção dos EUA</title>
-      <description>Derrota pesada com a Costa Rica precipitou divórcio com o treinador alemão.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/t7lf3K0P_7g" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/desporto/noticia/klinsmann-deixa-comando-da-seleccao-dos-eua-1752043</link>
-      <category>Desporto</category>
-      <pubDate>Mon, 21 Nov 2016 21:33:48 GMT</pubDate>
-      <dc:creator>PÚBLICO</dc:creator>
-      <guid>//www.publico.pt/desporto/noticia/klinsmann-deixa-comando-da-seleccao-dos-eua-1752043</guid>
-    </item>
-    <item>
-      <title>UKIP perde mais de 400 mil euros de fundos europeus por financiar sondagens nacionais</title>
-      <description>O partido que liderou a campanha contra a permanência do Reino Unido na União Europeia utilizou fundos europeus para financiar, entre outras coisas, sondagens e análises sobre o "Brexit".&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/b6RM-ef8Y3M" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/mundo/noticia/ukip-perde-mais-de-400-mil-euros-de-fundos-europeus-por-financiar-sondagens-nacionais-1752046</link>
+      <title>Seis crianças morrem em acidente com autocarro escolar nos EUA</title>
+      <description>Veículo capotou e embateu contra árvore. Motorista foi detido e pode ser acusado de múltiplo homicídio.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/Fhsvd1x_IZo" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/Fhsvd1x_IZo/acidente-com-autocarro-escolar-mata-seis-criancas-nos-eua-1752079</link>
       <category>Mundo</category>
-      <pubDate>Mon, 21 Nov 2016 21:33:39 GMT</pubDate>
-      <dc:creator>AFP</dc:creator>
-      <guid>//www.publico.pt/mundo/noticia/ukip-perde-mais-de-400-mil-euros-de-fundos-europeus-por-financiar-sondagens-nacionais-1752046</guid>
+      <pubDate>Tue, 22 Nov 2016 12:29:09 GMT</pubDate>
+      <dc:creator>Reuters, PÚBLICO</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/mundo/noticia/acidente-com-autocarro-escolar-mata-seis-criancas-nos-eua-1752079</guid>
+      <feedburner:origLink>http://www.publico.pt/mundo/noticia/acidente-com-autocarro-escolar-mata-seis-criancas-nos-eua-1752079</feedburner:origLink>
     </item>
     <item>
-      <title>Sismo de magnitude 6,9 atinge o Japão. Lançado alerta de tsunami</title>
-      <description>Os habitantes foram aconselhados a deixar a costa de Fukushima. Inicialmente os cálculos de magnitude apontavam para os 7,3 tendo sido alterados para os 6,9 na escala de Richter.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/WCmXC9UfMok" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/mundo/noticia/sismo-de-magnitude-73-atinge-o-japao-1752045</link>
-      <category>Mundo</category>
-      <pubDate>Mon, 21 Nov 2016 21:22:04 GMT</pubDate>
-      <dc:creator>PÚBLICO</dc:creator>
-      <guid>//www.publico.pt/mundo/noticia/sismo-de-magnitude-73-atinge-o-japao-1752045</guid>
+      <title>Carbon Tax em Portugal: &lt;i&gt;before the flood&lt;/i&gt; e depois de Trump</title>
+      <description>É importante um reforço do papel dos &lt;i&gt;small actors&lt;/i&gt;, países como o nosso, que têm vindo a ter um posicionamento capaz de reforço das políticas de aposta em energias renováveis e que podem constituir uma alternativa no processo de alinhamento das preocupações das alterações climáticas.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/IA09qnPli0w" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/IA09qnPli0w/carbon-tax-em-portugal-before-the-flood-e-depois-de-trump-1751695</link>
+      <category>Economia</category>
+      <pubDate>Tue, 22 Nov 2016 12:28:08 GMT</pubDate>
+      <dc:creator>João Luz Soares</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/economia/noticia/carbon-tax-em-portugal-before-the-flood-e-depois-de-trump-1751695</guid>
+      <feedburner:origLink>http://www.publico.pt/economia/noticia/carbon-tax-em-portugal-before-the-flood-e-depois-de-trump-1751695</feedburner:origLink>
     </item>
     <item>
-      <title>Marcelo cita Corão e elogia Egipto por efeito positivo da imagem moderada do Islão</title>
-      <description>Presidente afirmou que Portugal acompanha "com interesse e simpatia" os esforços daquele país no relançamento do processo de paz no Médio Oriente.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/ndVZR-Qo33k" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/politica/noticia/marcelo-cita-corao-e-elogia-egipto-por-efeito-positivo-da-imagem-moderada-do-islao-1752040</link>
-      <category>Política</category>
-      <pubDate>Mon, 21 Nov 2016 21:15:21 GMT</pubDate>
+      <title>PJ detém um dos três suspeitos de assalto violento na Trofa</title>
+      <description>&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/-V0uMp_ta6s" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/-V0uMp_ta6s/pj-detem-um-dos-tres-suspeitos-de-assalto-violento-na-trofa-1752088</link>
+      <category>Sociedade</category>
+      <pubDate>Tue, 22 Nov 2016 12:14:17 GMT</pubDate>
       <dc:creator>Lusa</dc:creator>
-      <guid>//www.publico.pt/politica/noticia/marcelo-cita-corao-e-elogia-egipto-por-efeito-positivo-da-imagem-moderada-do-islao-1752040</guid>
+      <guid isPermaLink="false">//www.publico.pt/sociedade/noticia/pj-detem-um-dos-tres-suspeitos-de-assalto-violento-na-trofa-1752088</guid>
+      <feedburner:origLink>http://www.publico.pt/sociedade/noticia/pj-detem-um-dos-tres-suspeitos-de-assalto-violento-na-trofa-1752088</feedburner:origLink>
+    </item>
+    <item>
+      <title>GNR apreende 79 quilos de haxixe em Vila Franca de Xira</title>
+      <description>Esta operação, que resultou numa detenção, permitiu tirar das ruas 160.000 doses de estupefacientes destinados ao tráfico.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/6kC8esxD52g" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/6kC8esxD52g/gnr-apreende-79-quilos-de-haxixe-em-vila-franca-de-xira-1752083</link>
+      <category>Sociedade</category>
+      <pubDate>Tue, 22 Nov 2016 11:49:08 GMT</pubDate>
+      <dc:creator>Lusa</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/sociedade/noticia/gnr-apreende-79-quilos-de-haxixe-em-vila-franca-de-xira-1752083</guid>
+      <feedburner:origLink>http://www.publico.pt/sociedade/noticia/gnr-apreende-79-quilos-de-haxixe-em-vila-franca-de-xira-1752083</feedburner:origLink>
+    </item>
+    <item>
+      <title>José Maria Costa recandidata-se à Câmara de Viana do Castelo</title>
+      <description>Presidente da Câmara de Viana do Castelo desde 2009, o autarca aponta  "vontade de continuar a dar o melhor" à cidade como elemento motivador.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/0j3zt488lck" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/0j3zt488lck/jose-maria-costa-recandidatase-a-camara-de-viana-do-castelo-1752085</link>
+      <category>Local</category>
+      <pubDate>Tue, 22 Nov 2016 11:36:38 GMT</pubDate>
+      <dc:creator>Lusa</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/local/noticia/jose-maria-costa-recandidatase-a-camara-de-viana-do-castelo-1752085</guid>
+      <feedburner:origLink>http://www.publico.pt/local/noticia/jose-maria-costa-recandidatase-a-camara-de-viana-do-castelo-1752085</feedburner:origLink>
     </item>
   </channel>
 </rss>
