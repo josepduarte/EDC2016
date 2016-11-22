@@ -1,0 +1,126 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+  <channel>
+    <title>Publico.pt - Geral</title>
+    <link>http://teste.publico.pt:1081</link>
+    <description>Descrição</description>
+    <copyright>© 2016 PÚBLICO Comunicação Social SA</copyright>
+    <language>pt-pt</language>
+    <lastBuildDate>Tue, 22 Nov 2016 18:45:05 GMT</lastBuildDate>
+    <category>Geral</category>
+    <ttl>5</ttl>
+    <managingEditor>ultimahora@publico.pt (Última Hora)</managingEditor>
+    <webMaster>webmaster@publico.pt (Webmaster)</webMaster>
+    <image>
+      <url>http://static.publico.pt/files/header/img/publico.png</url>
+      <title>Publico.pt - Escolha do Editor</title>
+      <link>http://teste.publico.pt:1081</link>
+      <width>85</width>
+    </image>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/PublicoRSS" />
+    <feedburner:info uri="publicorss" />
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>Crime no canil de Loulé: mataram uma mula à pancada, roubaram a égua</title>
+      <description>A direcção do canil estabelece um paralelismo entre o roubo de animais e as apreensões de carroças e mulas que a GNR faz às famílias de etnia cigana.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/T9T-CS8QoQE" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/T9T-CS8QoQE/crime-no-canil-de-loule-mataram-uma-mula-a-pancada-roubaram-a-egua-1752168</link>
+      <category>Local</category>
+      <pubDate>Tue, 22 Nov 2016 18:38:13 GMT</pubDate>
+      <dc:creator>Idálio Revez</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/local/noticia/crime-no-canil-de-loule-mataram-uma-mula-a-pancada-roubaram-a-egua-1752168</guid>
+      <feedburner:origLink>http://www.publico.pt/local/noticia/crime-no-canil-de-loule-mataram-uma-mula-a-pancada-roubaram-a-egua-1752168</feedburner:origLink>
+    </item>
+    <item>
+      <title>Elísio Summavielle: “Vemos com bons olhos a continuação da Fundação Berardo no CCB”</title>
+      <description>O presidente do Centro Cultural de Belém considera que mostrar a colecção do empresário madeirense "é um serviço público".&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/zhrfmHJQp1A" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/zhrfmHJQp1A/elisio-summavielle-vemos-com-bons-olhos-a-continuacao-da-fundacao-berardo-no-ccb-1752152</link>
+      <category>Cultura-Ípsilon</category>
+      <pubDate>Tue, 22 Nov 2016 18:25:16 GMT</pubDate>
+      <dc:creator>Lucinda Canelas</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/culturaipsilon/noticia/elisio-summavielle-vemos-com-bons-olhos-a-continuacao-da-fundacao-berardo-no-ccb-1752152</guid>
+      <feedburner:origLink>http://www.publico.pt/culturaipsilon/noticia/elisio-summavielle-vemos-com-bons-olhos-a-continuacao-da-fundacao-berardo-no-ccb-1752152</feedburner:origLink>
+    </item>
+    <item>
+      <title>Trump, Macri e um incómodo de 35 andares no centro de Buenos Aires</title>
+      <description>&lt;i&gt;Media&lt;/i&gt; argentinos noticiaram que o Presidente eleito dos EUA pediu a Mauricio Macri ajuda para instalar um escritório em Buenos Aires. O porta-voz do Presidente argentino desmente. Mas há uma relação antiga entre os dois líderes com outros investimentos pelo meio.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/58weatB54sc" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/58weatB54sc/trump-macri-e-um-predio-de-35-andares-no-centro-de-buenos-aires-1752158</link>
+      <category>Mundo</category>
+      <pubDate>Tue, 22 Nov 2016 18:12:35 GMT</pubDate>
+      <dc:creator>PÚBLICO</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/mundo/noticia/trump-macri-e-um-predio-de-35-andares-no-centro-de-buenos-aires-1752158</guid>
+      <feedburner:origLink>http://www.publico.pt/mundo/noticia/trump-macri-e-um-predio-de-35-andares-no-centro-de-buenos-aires-1752158</feedburner:origLink>
+    </item>
+    <item>
+      <title>A Norberto o que é de Norberto</title>
+      <description>O coração é o mesmo, imenso, mas &lt;i&gt;Muxama&lt;/i&gt; aprofunda novos caminhos.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/m7pE55qtVK4" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/m7pE55qtVK4/a-norberto-o-que-e-de-norberto-1752154</link>
+      <category>Cultura-Ípsilon</category>
+      <pubDate>Tue, 22 Nov 2016 18:07:56 GMT</pubDate>
+      <dc:creator>Mário Lopes</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/culturaipsilon/noticia/a-norberto-o-que-e-de-norberto-1752154</guid>
+      <feedburner:origLink>http://www.publico.pt/culturaipsilon/noticia/a-norberto-o-que-e-de-norberto-1752154</feedburner:origLink>
+    </item>
+    <item>
+      <title>Porto deverá ter mais zonas com parquímetros no próximo mandato</title>
+      <description>Rui Moreira diz que há moradores de zonas como o  Foco ou Pinto Bessa a pedirem a instalação de parquímetros, para poderem ter cartões de residente&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/Pb9NS7mWJCU" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/Pb9NS7mWJCU/porto-devera-ter-mais-zonas-com-parquimetros-no-proximo-mandato-1752157</link>
+      <category>Local</category>
+      <pubDate>Tue, 22 Nov 2016 18:06:51 GMT</pubDate>
+      <dc:creator>Patrícia Carvalho</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/local/noticia/porto-devera-ter-mais-zonas-com-parquimetros-no-proximo-mandato-1752157</guid>
+      <feedburner:origLink>http://www.publico.pt/local/noticia/porto-devera-ter-mais-zonas-com-parquimetros-no-proximo-mandato-1752157</feedburner:origLink>
+    </item>
+    <item>
+      <title>Tropas de Assad avançam sobre o Leste de Alepo com o mundo a assistir</title>
+      <description>Situação nos bairros rebeldes passou de "terrível a aterradora", diz a ONU. Exército sírio acusa combatentes de esconderem mantimentos em armazéns.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/ktIOvabXm0k" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/ktIOvabXm0k/tropas-de-assad-avancam-sobre-o-leste-de-alepo-com-o-mundo-a-assistir-1752153</link>
+      <category>Mundo</category>
+      <pubDate>Tue, 22 Nov 2016 18:01:52 GMT</pubDate>
+      <dc:creator>Ana Fonseca Pereira</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/mundo/noticia/tropas-de-assad-avancam-sobre-o-leste-de-alepo-com-o-mundo-a-assistir-1752153</guid>
+      <feedburner:origLink>http://www.publico.pt/mundo/noticia/tropas-de-assad-avancam-sobre-o-leste-de-alepo-com-o-mundo-a-assistir-1752153</feedburner:origLink>
+    </item>
+    <item>
+      <title>Morreu Jean-Claude Risset, pioneiro da música electrónica</title>
+      <description>Músico morreu esta segunda-feira em Marselha aos 78 anos.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/6ntzU2-3u_Y" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/6ntzU2-3u_Y/morreu-jeanclaude-risset-pioneiro-da-musica-electronica-1752148</link>
+      <category>Cultura-Ípsilon</category>
+      <pubDate>Tue, 22 Nov 2016 18:01:00 GMT</pubDate>
+      <dc:creator>PÚBLICO</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/culturaipsilon/noticia/morreu-jeanclaude-risset-pioneiro-da-musica-electronica-1752148</guid>
+      <feedburner:origLink>http://www.publico.pt/culturaipsilon/noticia/morreu-jeanclaude-risset-pioneiro-da-musica-electronica-1752148</feedburner:origLink>
+    </item>
+    <item>
+      <title>Curadores e críticos consideram “muito importante” acordo com Berardo</title>
+      <description>Especialistas querem conhecer as alterações ao protocolo assinado em 2006.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/hE2D1psXDd0" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/hE2D1psXDd0/curadores-e-criticos-consideram-muito-importante-acordo-com-berardo-1752110</link>
+      <category>Cultura-Ípsilon</category>
+      <pubDate>Tue, 22 Nov 2016 17:15:06 GMT</pubDate>
+      <dc:creator>Isabel Salema</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/culturaipsilon/noticia/curadores-e-criticos-consideram-muito-importante-acordo-com-berardo-1752110</guid>
+      <feedburner:origLink>http://www.publico.pt/culturaipsilon/noticia/curadores-e-criticos-consideram-muito-importante-acordo-com-berardo-1752110</feedburner:origLink>
+    </item>
+    <item>
+      <title>ERT e i2S ganham prémio inovação da COTEC</title>
+      <description>As duas empresas ficaram, &lt;i&gt;ex aequo&lt;/i&gt;, em primeiro lugar.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/KpCBTmndrUo" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/KpCBTmndrUo/ert-e-i2s-ganham-premio-inovacao-da-cotec-1752147</link>
+      <category>Economia</category>
+      <pubDate>Tue, 22 Nov 2016 17:12:28 GMT</pubDate>
+      <dc:creator>PÚBLICO</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/economia/noticia/ert-e-i2s-ganham-premio-inovacao-da-cotec-1752147</guid>
+      <feedburner:origLink>http://www.publico.pt/economia/noticia/ert-e-i2s-ganham-premio-inovacao-da-cotec-1752147</feedburner:origLink>
+    </item>
+    <item>
+      <title>Rui Vitória: "Não estamos focados em recordes"</title>
+      <description>Técnico do Benfica não pensa em marcas históricas. Só pensa em ganhar ao Besiktas e somar mais três pontos na Liga dos Campeões.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/zZuAx-teTQ8" height="1" width="1" alt=""/&gt;</description>
+      <link>http://feedproxy.google.com/~r/PublicoRSS/~3/zZuAx-teTQ8/rui-vitoria-nao-estamos-focados-em-recordes-1752146</link>
+      <category>Desporto</category>
+      <pubDate>Tue, 22 Nov 2016 17:11:09 GMT</pubDate>
+      <dc:creator>PÚBLICO</dc:creator>
+      <guid isPermaLink="false">//www.publico.pt/desporto/noticia/rui-vitoria-nao-estamos-focados-em-recordes-1752146</guid>
+      <feedburner:origLink>http://www.publico.pt/desporto/noticia/rui-vitoria-nao-estamos-focados-em-recordes-1752146</feedburner:origLink>
+    </item>
+  </channel>
+</rss>
