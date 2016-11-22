@@ -10,7 +10,7 @@
     </rss>
   </xsl:template>
     <xsl:template match="channel">
-        <xsl:for-each select="item">
+        <xsl:for-each select="item[4]">
           <item>
             <xsl:attribute name="title">
             <xsl:value-of select="title"/>
@@ -22,7 +22,7 @@
               <xsl:value-of select="category"/>
             </xsl:attribute>
             <xsl:attribute name="description">
-              <xsl:value-of select="substring-before(description,'.')"/>
+              <xsl:value-of select="substring-before(description,'&lt;')"/>
             </xsl:attribute>
             
           </item>

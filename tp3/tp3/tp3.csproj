@@ -170,10 +170,30 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
+    <Content Include="Content\mine.css" />
     <Content Include="manageFeeds.aspx" />
     <Content Include="feeds.xml" />
-    <Content Include="News_header.xslt" />
-    <Content Include="News_items.xslt" />
+    <Content Include="News_header.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="News_items6.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="News_items5.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="News_items4.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="News_items3.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="News_items2.xslt">
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="News_items1.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="public_feeds.xml" />
     <Content Include="rss_logo.jpg" />
     <Content Include="Contact.aspx" />
