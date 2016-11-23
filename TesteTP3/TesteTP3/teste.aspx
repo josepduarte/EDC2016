@@ -21,7 +21,11 @@
                     &nbsp;<asp:LinkButton ID="LinkButton3" runat="server" CausesValidation="False" CommandName="Delete" Text="Delete"></asp:LinkButton>
                 </ItemTemplate>
             </asp:TemplateField>
+           
         </Fields>
+        <EmptyDataTemplate>
+            <asp:LinkButton ID="LinkButton2" runat="server" CausesValidation="False" CommandName="New" Text="New"></asp:LinkButton>
+        </EmptyDataTemplate>
     </asp:DetailsView>
     <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/App_Data/xml.xml" TransformFile="~/bla.xslt"></asp:XmlDataSource>
     <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />

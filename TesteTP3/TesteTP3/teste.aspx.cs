@@ -18,14 +18,6 @@ namespace TesteTP3
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-            string url = DetailsView1.Rows[1].Cells[1].Text.ToString();
-            Debug.WriteLine(url);
-            XmlReader reader = XmlReader.Create(url);
-            XmlDocument doc = new XmlDocument();
-            doc.Load(reader);
-            reader.Close();
-            string path = HttpContext.Current.Server.MapPath("~/App_Data/public_feeds.xml");
-            doc.Save(path);
 
         }
 
@@ -42,6 +34,37 @@ namespace TesteTP3
             feed.AppendChild(nome);
             feed.AppendChild(url);
             xdoc.DocumentElement.AppendChild(feed);
+
+
+            string path = HttpContext.Current.Server.MapPath("~/App_Data/public_feeds.xml");
+            XmlDocument source = new XmlDocument();
+            source.Load(path);
+            Debug.WriteLine("BLAAA " + source.InnerXml);
+
+            string url_str = e.Values["url"].ToString();
+            Debug.WriteLine(url_str);
+            XmlReader reader = XmlReader.Create(url_str);
+            XmlDocument doc = new XmlDocument();
+            doc.Load(reader);
+            reader.Close();
+            Debug.WriteLine("BLA:" + doc.DocumentElement.InnerXml);
+            /*
+            XmlElement nome2 = doc.CreateElement("name");
+            nome2.InnerText = e.Values["name"].ToString();
+            doc.DocumentElement.AppendChild(nome2);
+            */
+            XmlElement channel = doc.DocumentElement.GetElementsByTagName("channel")[0] as XmlElement;
+            XmlAttribute name = doc.CreateAttribute("name");
+            name.Value = e.Values["name"].ToString();
+            channel.Attributes.Append(name);
+
+            XmlNode rootChannel = channel as XmlNode;
+            XmlNode importNode = source.ImportNode(rootChannel, true);
+            Debug.WriteLine("BLAAAAAAA:" + rootChannel.InnerXml);
+            source.DocumentElement.AppendChild(importNode);
+
+            source.Save(path);
+
 
             XmlDataSource1.Save();
             XmlDataSource1.DataBind();
