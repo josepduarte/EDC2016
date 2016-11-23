@@ -78,23 +78,77 @@ namespace TesteTP3
 
         protected void DetailsView1_ItemUpdating(object sender, DetailsViewUpdateEventArgs e)
         {
-            string oldName = e.OldValues["name"].ToString();
+            /*
+             *  Delete
+             */
+
             XmlDataSource1.TransformFile = "";
             XmlDocument xdoc = XmlDataSource1.GetXmlDocument();
 
-            XmlElement feed = xdoc.SelectSingleNode("/listaDeRSS/feed[name='" + oldName + "']") as XmlElement;
+            XmlElement feedToRem = xdoc.SelectSingleNode("/listaDeRSS/feed[name='" + e.OldValues["name"].ToString() + "']") as XmlElement;
 
-            Debug.WriteLine("feed: " + feed.InnerXml);
+            xdoc.DocumentElement.RemoveChild(feedToRem);
 
-            feed.SelectSingleNode("name").InnerText = e.NewValues["name"].ToString();
-            feed.SelectSingleNode("url").InnerText = e.NewValues["url"].ToString();
+            string path = HttpContext.Current.Server.MapPath("~/App_Data/public_feeds.xml");
+            XmlDocument source = new XmlDocument();
+            source.Load(path);
+            XmlElement toRemove = source.SelectSingleNode("/channels/channel[@name='" + e.OldValues["name"].ToString() + "']") as XmlElement;
+            source.DocumentElement.RemoveChild(toRemove);
+            source.Save(path);
+
+            /*
+             * Add
+             */
+
+            XmlDataSource1.TransformFile = "";
+
+            XmlDocument xdoc2 = XmlDataSource1.GetXmlDocument();
+            XmlElement feed = xdoc.CreateElement("feed");
+            XmlElement nome = xdoc.CreateElement("name");
+            nome.InnerText = e.NewValues["name"].ToString();
+            XmlElement url = xdoc.CreateElement("url");
+            url.InnerText = e.NewValues["url"].ToString();
+            feed.AppendChild(nome);
+            feed.AppendChild(url);
+            xdoc.DocumentElement.AppendChild(feed);
+
+
+            source.Load(path);
+
+            string url_str = e.NewValues["url"].ToString();
+            Debug.WriteLine(url_str);
+            XmlReader reader = XmlReader.Create(url_str);
+            XmlDocument doc = new XmlDocument();
+            doc.Load(reader);
+            reader.Close();
+            Debug.WriteLine("BLA:" + doc.DocumentElement.InnerXml);
+            /*
+            XmlElement nome2 = doc.CreateElement("name");
+            nome2.InnerText = e.Values["name"].ToString();
+            doc.DocumentElement.AppendChild(nome2);
+            */
+            XmlElement channel = doc.DocumentElement.GetElementsByTagName("channel")[0] as XmlElement;
+            XmlAttribute name = doc.CreateAttribute("name");
+            name.Value = e.NewValues["name"].ToString();
+            channel.Attributes.Append(name);
+
+            XmlNode rootChannel = channel as XmlNode;
+            XmlNode importNode = source.ImportNode(rootChannel, true);
+            Debug.WriteLine("BLAAAAAAA:" + rootChannel.InnerXml);
+            source.DocumentElement.AppendChild(importNode);
+
+            source.Save(path);
+
 
             XmlDataSource1.Save();
             XmlDataSource1.DataBind();
             XmlDataSource1.TransformFile = "~/bla.xslt";
             e.Cancel = true;
-
+            DetailsView1.DataBind();
+            DetailsView1.PageIndex = xdoc.DocumentElement.ChildNodes.Count - 1;
             DetailsView1.ChangeMode(DetailsViewMode.ReadOnly);
+
+
         }
 
         protected void DetailsView1_ItemDeleting(object sender, DetailsViewDeleteEventArgs e)
@@ -113,6 +167,12 @@ namespace TesteTP3
 
             DetailsView1.ChangeMode(DetailsViewMode.ReadOnly);
 
+            string path = HttpContext.Current.Server.MapPath("~/App_Data/public_feeds.xml");
+            XmlDocument source = new XmlDocument();
+            source.Load(path);
+            XmlElement toRemove = source.SelectSingleNode("/channels/channel[@name='" + e.Values["name"].ToString() + "']") as XmlElement;
+            source.DocumentElement.RemoveChild(toRemove);
+            source.Save(path);
         }
     }
 

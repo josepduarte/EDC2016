@@ -112,111 +112,114 @@
     </item>
   </channel>
   <channel name="Expresso">
-    <title>Expresso</title>
-    <description><![CDATA[No Expresso leia opinião, economia, política, cultura, lifestyle, cinema, desporto, última hora. Veja fotografias e vídeos.]]></description>
-    <link>http://expresso.sapo.pt/</link>
-    <language>pt-PT</language>
-    <pubDate>Wed, 23 Nov 2016 00:47:48 +0000</pubDate>
+    <title>Publico.pt - Geral</title>
+    <link>//www.publico.pt</link>
+    <description>Descrição</description>
+    <copyright>© 2016 PÚBLICO Comunicação Social SA</copyright>
+    <language>pt-pt</language>
+    <lastBuildDate>Wed, 23 Nov 2016 01:25:17 GMT</lastBuildDate>
+    <category>Geral</category>
+    <ttl>5</ttl>
+    <managingEditor>ultimahora@publico.pt (Última Hora)</managingEditor>
+    <webMaster>webmaster@publico.pt (Webmaster)</webMaster>
     <image>
-      <url>http://images-cdn.impresa.pt/expresso/2015-10-28-expresso-logo.png/original</url>
-      <title>Expresso</title>
-      <link>http://expresso.sapo.pt</link>
+      <url>http://static.publico.pt/files/header/img/publico.png</url>
+      <title>Publico.pt - Escolha do Editor</title>
+      <link>//www.publico.pt</link>
+      <width>85</width>
     </image>
-    <copyright>Expresso 2016</copyright>
-    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/expresso-geral" />
-    <feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="expresso-geral" />
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/PublicoRSS" />
+    <feedburner:info uri="publicorss" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" />
     <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
     <item>
-      <title>Rogério Casanova sabe perfeitamente o que nós estamos a pensar sobre o João Pereira. E sobre André? "Whatever"</title>
-      <description />
-      <pubDate>Tue, 22 Nov 2016 23:13:12 +0000</pubDate>
-      <category>Desporto</category>
-      <link>http://expresso.sapo.pt/desporto/2016-11-22-Rogerio-Casanova-sabe-perfeitamente-o-que-nos-estamos-a-pensar-sobre-o-Joao-Pereira.-E-sobre-Andre--Whatever</link>
-      <guid isPermaLink="false">f1253e05-180c-451d-8b23-328d5061f16c</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Rogerio-Casanova-sabe-perfeitamente-o-que-nos-estamos-a-pensar-sobre-o-Joao-Pereira.-E-sobre-Andre--Whatever</impresa:contentUri>
+      <title>Meio milhão de euros para parte de escadaria da Torre Eiffel</title>
+      <description>Venda em Paris de uma secção das escadas em espiral em ferro forjado original.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/bmD8I7k_mZs" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/culturaipsilon/noticia/meio-milhao-de-euros-para-parte-de-escadaria-da-torre-eiffel-1752207</link>
+      <category>Cultura-Ípsilon</category>
+      <pubDate>Wed, 23 Nov 2016 00:47:04 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PÚBLICO</dc:creator>
+      <guid>//www.publico.pt/culturaipsilon/noticia/meio-milhao-de-euros-para-parte-de-escadaria-da-torre-eiffel-1752207</guid>
     </item>
     <item>
-      <title>A apreciação à exibição de Herrera em Copenhaga e outras considerações de Lá em Casa Mando Eu</title>
-      <description />
-      <pubDate>Tue, 22 Nov 2016 22:51:47 +0000</pubDate>
-      <category>Desporto</category>
-      <link>http://expresso.sapo.pt/desporto/2016-11-22-A-apreciacao-a-exibicao-de-Herrera-em-Copenhaga-e-outras-consideracoes-de-La-em-Casa-Mando-Eu</link>
-      <guid isPermaLink="false">1fbf13c7-ecf1-4e3d-8aeb-9ad576791772</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-A-apreciacao-a-exibicao-de-Herrera-em-Copenhaga-e-outras-consideracoes-de-La-em-Casa-Mando-Eu</impresa:contentUri>
+      <title>Há uma árvore de Natal que custa quase dois milhões de euros</title>
+      <description>Com 19 quilos de ouro puro, uma árvore de Natal de dois metros de altura criada em Tóquio está avaliada em cerca de 1,7 milhões de euros.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/X56kXisQNCE" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/mundo/noticia/ha-uma-arvore-de-natal-que-custa-quase-dois-milhoes-de-euros-1752214</link>
+      <category>Mundo</category>
+      <pubDate>Wed, 23 Nov 2016 00:37:32 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PÚBLICO</dc:creator>
+      <guid>//www.publico.pt/mundo/noticia/ha-uma-arvore-de-natal-que-custa-quase-dois-milhoes-de-euros-1752214</guid>
     </item>
     <item>
-      <title>Os oitenta e sete são os novos 'oitchentcha e otcho' (a crónica do Sporting-Real Madrid)</title>
-      <description />
-      <pubDate>Tue, 22 Nov 2016 22:28:14 +0000</pubDate>
-      <category>Desporto</category>
-      <link>http://expresso.sapo.pt/desporto/2016-11-22-Os-oitenta-e-sete-sao-os-novos-oitchentcha-e-otcho--a-cronica-do-Sporting-Real-Madrid-</link>
-      <guid isPermaLink="false">b6956956-1341-4e0f-91d7-34f45d547104</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Os-oitenta-e-sete-sao-os-novos-oitchentcha-e-otcho--a-cronica-do-Sporting-Real-Madrid-</impresa:contentUri>
+      <title>Ben Carson convidado para a Administração de Trump</title>
+      <description>Donald Trump convidou Ben Carson para ocupar o cargo de secretário da Habitação e Desenvolvimento Urbano. O candidato às primárias republicanas diz que vai "considerar" a proposta.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/DiuIVP9EDRM" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/mundo/noticia/ben-carson-convidado-para-a-administracao-de-trump-1752216</link>
+      <category>Mundo</category>
+      <pubDate>Wed, 23 Nov 2016 00:30:20 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PÚBLICO</dc:creator>
+      <guid>//www.publico.pt/mundo/noticia/ben-carson-convidado-para-a-administracao-de-trump-1752216</guid>
     </item>
     <item>
-      <title>Um redondo, entediante e frio... zero (a crónica do jogo do FC Porto)</title>
-      <description />
-      <pubDate>Tue, 22 Nov 2016 22:18:28 +0000</pubDate>
-      <category>Desporto</category>
-      <link>http://expresso.sapo.pt/desporto/2016-11-22-Um-redondo-entediante-e-frio.-zero--a-cronica-do-jogo-do-FC-Porto-</link>
-      <guid isPermaLink="false">e35911a8-9303-4d5b-8392-462a677471d0</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Um-redondo-entediante-e-frio.-zero--a-cronica-do-jogo-do-FC-Porto-</impresa:contentUri>
+      <title>Portugueses tencionam gastar 357 euros em compras de Natal</title>
+      <description>Estudo da Deloitte indica que as famílias prevêem desembolsar mais 45 euros do que no ano passado. A maioria do dinheiro é destinada a presentes.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/a8hzwD3peug" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/economia/noticia/portugueses-tencionam-gastar-357-euros-em-compras-de-natal-1752165</link>
+      <category>Economia</category>
+      <pubDate>Wed, 23 Nov 2016 00:12:02 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ana Rute Silva</dc:creator>
+      <guid>//www.publico.pt/economia/noticia/portugueses-tencionam-gastar-357-euros-em-compras-de-natal-1752165</guid>
     </item>
     <item>
-      <title>Jorge Jesus: “As pessoas andam enganadas, mas eu não. O fair play é uma treta e o Kovacic fez bem, fez bem!”</title>
-      <description />
-      <pubDate>Tue, 22 Nov 2016 22:08:45 +0000</pubDate>
-      <category>Desporto</category>
-      <link>http://expresso.sapo.pt/desporto/2016-11-22-Jorge-Jesus-As-pessoas-andam-enganadas-mas-eu-nao.-O-fair-play-e-uma-treta-e-o-Kovacic-fez-bem-fez-bem</link>
-      <guid isPermaLink="false">eb03ed02-7b7b-41cd-899f-151ef958c141</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Jorge-Jesus-As-pessoas-andam-enganadas-mas-eu-nao.-O-fair-play-e-uma-treta-e-o-Kovacic-fez-bem-fez-bem</impresa:contentUri>
+      <title>Obama entrega Medalha da Liberdade a 21 artistas, desportistas e cientistas</title>
+      <description>De entre os distinguidos estão Tom Hanks, Diana Ross, Bruce Springsteen, Robert De Niro, Ellen DeGeneres, Bill Gates e a mulher Melinda ou Robert Redford. Antes houve espaço para o famoso &lt;i&gt;Mannequin Challenge&lt;/i&gt;.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/7Rwt08Ui_WA" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/mundo/noticia/obama-entrega-medalha-da-liberdade-a-21-artistas-desportistas-e-cientistas-1752212</link>
+      <category>Mundo</category>
+      <pubDate>Tue, 22 Nov 2016 23:31:36 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PÚBLICO</dc:creator>
+      <guid>//www.publico.pt/mundo/noticia/obama-entrega-medalha-da-liberdade-a-21-artistas-desportistas-e-cientistas-1752212</guid>
     </item>
     <item>
-      <media:content url="http://images-cdn.impresa.pt/expresso/2016-11-22-1.jpg/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
-      <title>Romances e novelas ajudam a combater a violência doméstica?</title>
-      <description><![CDATA[Em Portugal, 85% das vítimas de violência doméstica são mulheres. Na semana em que se assinala o Dia Internacional para a Eliminação da Violência Contra as Mulheres, o  <strong>Expresso</strong> conversou com a psicóloga e escritora Ana Cristina Silva, e com a argumentista e ativista feminista Helena Amaral sobre o papel da ficção na prevenção e combate a este crime público]]></description>
-      <pubDate>Tue, 22 Nov 2016 21:50:48 +0000</pubDate>
+      <title>Karjakin vence jogo oito na luta pelo título de xadrez</title>
+      <description>Hegemonia de Magnus Carlsen posta em causa, em Nova Iorque.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/eADCrmt_-Is" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/desporto/noticia/karjakin-vence-jogo-oito-na-luta-pelo-titulo-de-xadrez-1752213</link>
+      <category>Desporto</category>
+      <pubDate>Tue, 22 Nov 2016 23:29:51 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jorge Guimarães</dc:creator>
+      <guid>//www.publico.pt/desporto/noticia/karjakin-vence-jogo-oito-na-luta-pelo-titulo-de-xadrez-1752213</guid>
+    </item>
+    <item>
+      <title>Técnicos de diagnóstico voltam a protestar em frente ao Ministério da Saúde</title>
+      <description>Greve dos técnicos de diagnóstico e terapêutica começou no dia 16.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/4y_UxlwvE9U" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/sociedade/noticia/tecnicos-de-diagnostico-voltam-a-concentrarse-em-frente-ao-ministerio-da-saude-1752172</link>
       <category>Sociedade</category>
-      <link>http://expresso.sapo.pt/sociedade/2016-11-22-Romances-e-novelas-ajudam-a-combater-a-violencia-domestica--1</link>
-      <guid isPermaLink="false">579ba0b2-9de7-489d-8078-47f457c3586a</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Romances-e-novelas-ajudam-a-combater-a-violencia-domestica--1</impresa:contentUri>
+      <pubDate>Tue, 22 Nov 2016 23:21:49 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alexandra Campos, Bárbara Duarte Mota</dc:creator>
+      <guid>//www.publico.pt/sociedade/noticia/tecnicos-de-diagnostico-voltam-a-concentrarse-em-frente-ao-ministerio-da-saude-1752172</guid>
     </item>
     <item>
-      <title>Balde de água fria em Alvalade: golo de Benzema</title>
-      <description />
-      <pubDate>Tue, 22 Nov 2016 21:30:14 +0000</pubDate>
+      <title>Sissi pede investimento português no canal do Suez</title>
+      <description>Falou-se de direitos humanos. Era inevitável. Trata-se do Egipto. Mas o segundo dia da visita do Presidente Sissi a Portugal foi para tratar de negócios.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/cTl4DyVBjtQ" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/politica/noticia/sissi-pede-investimento-portugues-no-canal-do-suez-1752191</link>
+      <category>Política</category>
+      <pubDate>Tue, 22 Nov 2016 23:11:21 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bárbara Reis</dc:creator>
+      <guid>//www.publico.pt/politica/noticia/sissi-pede-investimento-portugues-no-canal-do-suez-1752191</guid>
+    </item>
+    <item>
+      <title>Como medir as desigualdades dentro das escolas?</title>
+      <description>Comparação entre melhores escolas do Estado e colégios mostra turmas mais homogéneas nos privados&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/zK0mQ9oYAls" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/sociedade/noticia/como-medir-as-desigualdades-dentro-da-mesma-escola-1752195</link>
+      <category>Sociedade</category>
+      <pubDate>Tue, 22 Nov 2016 22:49:09 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Samuel Silva</dc:creator>
+      <guid>//www.publico.pt/sociedade/noticia/como-medir-as-desigualdades-dentro-da-mesma-escola-1752195</guid>
+    </item>
+    <item>
+      <title>Legia ainda assustou, mas saiu de Dortmund feito num oito</title>
+      <description>O jogo com mais golos da história da Champions (12) aconteceu no Signal Iduna Park. O Mónaco qualificou-se para os "oitavos" com autoridade.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/nv0x6tWbiIA" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/desporto/noticia/legia-ainda-assustou-mas-saiu-de-dortmund-feito-num-oito-1752210</link>
       <category>Desporto</category>
-      <link>http://expresso.sapo.pt/desporto/2016-11-22-Balde-de-agua-fria-em-Alvalade-golo-de-Benzema</link>
-      <guid isPermaLink="false">d7a6e9f4-f66f-46a3-a49d-454a6d4cff65</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Balde-de-agua-fria-em-Alvalade-golo-de-Benzema</impresa:contentUri>
-    </item>
-    <item>
-      <media:content url="http://images-cdn.impresa.pt/expresso/2016-11-22-Donald-Trump/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
-      <title>Donald Trump condena extrema-direita norte-americana e sonha com a paz na Palestina</title>
-      <description><![CDATA[“Não quero alimentar esse grupo e repudio o grupo” disse o Presidente norte-americano eleito em entrevista ao The New York Times, referindo-se ao movimento de extrema-direita 'alt-right', recém-surgido nos Estados Unidos]]></description>
-      <pubDate>Tue, 22 Nov 2016 21:25:17 +0000</pubDate>
-      <category>Internacional</category>
-      <link>http://expresso.sapo.pt/internacional/2016-11-22-Donald-Trump-condena-extrema-direita-norte-americana-e-sonha-com-a-paz-na-Palestina</link>
-      <guid isPermaLink="false">b53adf17-5c59-4ae7-a63c-854c22249abb</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Donald-Trump-condena-extrema-direita-norte-americana-e-sonha-com-a-paz-na-Palestina</impresa:contentUri>
-    </item>
-    <item>
-      <title>Empate em Alvalade: marca Adrien Silva</title>
-      <description />
-      <pubDate>Tue, 22 Nov 2016 21:23:27 +0000</pubDate>
-      <category>Desporto</category>
-      <link>http://expresso.sapo.pt/desporto/2016-11-22-Empate-em-Alvalade-marca-Adrien-Silva</link>
-      <guid isPermaLink="false">4b600aef-ee31-494f-abf1-6c0b2167e7b9</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Empate-em-Alvalade-marca-Adrien-Silva</impresa:contentUri>
-    </item>
-    <item>
-      <title>Grande penalidade para o Sporting</title>
-      <description />
-      <pubDate>Tue, 22 Nov 2016 21:22:17 +0000</pubDate>
-      <category>Desporto</category>
-      <link>http://expresso.sapo.pt/desporto/2016-11-22-Grande-penalidade-para-o-Sporting</link>
-      <guid isPermaLink="false">25f90861-1fee-4179-b45f-6b2633e362a7</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Grande-penalidade-para-o-Sporting</impresa:contentUri>
+      <pubDate>Tue, 22 Nov 2016 22:30:38 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nuno Sousa</dc:creator>
+      <guid>//www.publico.pt/desporto/noticia/legia-ainda-assustou-mas-saiu-de-dortmund-feito-num-oito-1752210</guid>
     </item>
   </channel>
 </channels>
