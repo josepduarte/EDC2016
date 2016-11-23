@@ -1,116 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <channels>
-  <channel name="Público">
-    <title>Publico.pt - Geral</title>
-    <link>//www.publico.pt</link>
-    <description>Descrição</description>
-    <copyright>© 2016 PÚBLICO Comunicação Social SA</copyright>
-    <language>pt-pt</language>
-    <lastBuildDate>Wed, 23 Nov 2016 01:00:35 GMT</lastBuildDate>
-    <category>Geral</category>
-    <ttl>5</ttl>
-    <managingEditor>ultimahora@publico.pt (Última Hora)</managingEditor>
-    <webMaster>webmaster@publico.pt (Webmaster)</webMaster>
-    <image>
-      <url>http://static.publico.pt/files/header/img/publico.png</url>
-      <title>Publico.pt - Escolha do Editor</title>
-      <link>//www.publico.pt</link>
-      <width>85</width>
-    </image>
-    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/PublicoRSS" />
-    <feedburner:info uri="publicorss" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" />
-    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
-    <item>
-      <title>Meio milhão de euros para parte de escadaria da Torre Eiffel</title>
-      <description>Venda em Paris de uma secção das escadas em espiral em ferro forjado original.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/bmD8I7k_mZs" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/culturaipsilon/noticia/meio-milhao-de-euros-para-parte-de-escadaria-da-torre-eiffel-1752207</link>
-      <category>Cultura-Ípsilon</category>
-      <pubDate>Wed, 23 Nov 2016 00:47:04 GMT</pubDate>
-      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PÚBLICO</dc:creator>
-      <guid>//www.publico.pt/culturaipsilon/noticia/meio-milhao-de-euros-para-parte-de-escadaria-da-torre-eiffel-1752207</guid>
-    </item>
-    <item>
-      <title>Há uma árvore de Natal que custa quase dois milhões de euros</title>
-      <description>Com 19 quilos de ouro puro, uma árvore de Natal de dois metros de altura criada em Tóquio está avaliada em cerca de 1,7 milhões de euros.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/X56kXisQNCE" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/mundo/noticia/ha-uma-arvore-de-natal-que-custa-quase-dois-milhoes-de-euros-1752214</link>
-      <category>Mundo</category>
-      <pubDate>Wed, 23 Nov 2016 00:37:32 GMT</pubDate>
-      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PÚBLICO</dc:creator>
-      <guid>//www.publico.pt/mundo/noticia/ha-uma-arvore-de-natal-que-custa-quase-dois-milhoes-de-euros-1752214</guid>
-    </item>
-    <item>
-      <title>Ben Carson convidado para a Administração de Trump</title>
-      <description>Donald Trump convidou Ben Carson para ocupar o cargo de secretário da Habitação e Desenvolvimento Urbano. O candidato às primárias republicanas diz que vai "considerar" a proposta.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/DiuIVP9EDRM" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/mundo/noticia/ben-carson-convidado-para-a-administracao-de-trump-1752216</link>
-      <category>Mundo</category>
-      <pubDate>Wed, 23 Nov 2016 00:30:20 GMT</pubDate>
-      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PÚBLICO</dc:creator>
-      <guid>//www.publico.pt/mundo/noticia/ben-carson-convidado-para-a-administracao-de-trump-1752216</guid>
-    </item>
-    <item>
-      <title>Portugueses tencionam gastar 357 euros em compras de Natal</title>
-      <description>Estudo da Deloitte indica que as famílias prevêem desembolsar mais 45 euros do que no ano passado. A maioria do dinheiro é destinada a presentes.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/a8hzwD3peug" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/economia/noticia/portugueses-tencionam-gastar-357-euros-em-compras-de-natal-1752165</link>
-      <category>Economia</category>
-      <pubDate>Wed, 23 Nov 2016 00:12:02 GMT</pubDate>
-      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Ana Rute Silva</dc:creator>
-      <guid>//www.publico.pt/economia/noticia/portugueses-tencionam-gastar-357-euros-em-compras-de-natal-1752165</guid>
-    </item>
-    <item>
-      <title>Obama entrega Medalha da Liberdade a 21 artistas, desportistas e cientistas</title>
-      <description>De entre os distinguidos estão Tom Hanks, Diana Ross, Bruce Springsteen, Robert De Niro, Ellen DeGeneres, Bill Gates e a mulher Melinda ou Robert Redford. Antes houve espaço para o famoso &lt;i&gt;Mannequin Challenge&lt;/i&gt;.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/7Rwt08Ui_WA" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/mundo/noticia/obama-entrega-medalha-da-liberdade-a-21-artistas-desportistas-e-cientistas-1752212</link>
-      <category>Mundo</category>
-      <pubDate>Tue, 22 Nov 2016 23:31:36 GMT</pubDate>
-      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PÚBLICO</dc:creator>
-      <guid>//www.publico.pt/mundo/noticia/obama-entrega-medalha-da-liberdade-a-21-artistas-desportistas-e-cientistas-1752212</guid>
-    </item>
-    <item>
-      <title>Karjakin vence jogo oito na luta pelo título de xadrez</title>
-      <description>Hegemonia de Magnus Carlsen posta em causa, em Nova Iorque.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/eADCrmt_-Is" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/desporto/noticia/karjakin-vence-jogo-oito-na-luta-pelo-titulo-de-xadrez-1752213</link>
-      <category>Desporto</category>
-      <pubDate>Tue, 22 Nov 2016 23:29:51 GMT</pubDate>
-      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Jorge Guimarães</dc:creator>
-      <guid>//www.publico.pt/desporto/noticia/karjakin-vence-jogo-oito-na-luta-pelo-titulo-de-xadrez-1752213</guid>
-    </item>
-    <item>
-      <title>Técnicos de diagnóstico voltam a protestar em frente ao Ministério da Saúde</title>
-      <description>Greve dos técnicos de diagnóstico e terapêutica começou no dia 16.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/4y_UxlwvE9U" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/sociedade/noticia/tecnicos-de-diagnostico-voltam-a-concentrarse-em-frente-ao-ministerio-da-saude-1752172</link>
-      <category>Sociedade</category>
-      <pubDate>Tue, 22 Nov 2016 23:21:49 GMT</pubDate>
-      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Alexandra Campos, Bárbara Duarte Mota</dc:creator>
-      <guid>//www.publico.pt/sociedade/noticia/tecnicos-de-diagnostico-voltam-a-concentrarse-em-frente-ao-ministerio-da-saude-1752172</guid>
-    </item>
-    <item>
-      <title>Sissi pede investimento português no canal do Suez</title>
-      <description>Falou-se de direitos humanos. Era inevitável. Trata-se do Egipto. Mas o segundo dia da visita do Presidente Sissi a Portugal foi para tratar de negócios.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/cTl4DyVBjtQ" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/politica/noticia/sissi-pede-investimento-portugues-no-canal-do-suez-1752191</link>
-      <category>Política</category>
-      <pubDate>Tue, 22 Nov 2016 23:11:21 GMT</pubDate>
-      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Bárbara Reis</dc:creator>
-      <guid>//www.publico.pt/politica/noticia/sissi-pede-investimento-portugues-no-canal-do-suez-1752191</guid>
-    </item>
-    <item>
-      <title>Como medir as desigualdades dentro das escolas?</title>
-      <description>Comparação entre melhores escolas do Estado e colégios mostra turmas mais homogéneas nos privados&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/zK0mQ9oYAls" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/sociedade/noticia/como-medir-as-desigualdades-dentro-da-mesma-escola-1752195</link>
-      <category>Sociedade</category>
-      <pubDate>Tue, 22 Nov 2016 22:49:09 GMT</pubDate>
-      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Samuel Silva</dc:creator>
-      <guid>//www.publico.pt/sociedade/noticia/como-medir-as-desigualdades-dentro-da-mesma-escola-1752195</guid>
-    </item>
-    <item>
-      <title>Legia ainda assustou, mas saiu de Dortmund feito num oito</title>
-      <description>O jogo com mais golos da história da Champions (12) aconteceu no Signal Iduna Park. O Mónaco qualificou-se para os "oitavos" com autoridade.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/nv0x6tWbiIA" height="1" width="1" alt=""/&gt;</description>
-      <link>https://www.publico.pt/desporto/noticia/legia-ainda-assustou-mas-saiu-de-dortmund-feito-num-oito-1752210</link>
-      <category>Desporto</category>
-      <pubDate>Tue, 22 Nov 2016 22:30:38 GMT</pubDate>
-      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nuno Sousa</dc:creator>
-      <guid>//www.publico.pt/desporto/noticia/legia-ainda-assustou-mas-saiu-de-dortmund-feito-num-oito-1752210</guid>
-    </item>
-  </channel>
   <channel name="Expresso">
     <title>Expresso</title>
     <description><![CDATA[No Expresso leia opinião, economia, política, cultura, lifestyle, cinema, desporto, última hora. Veja fotografias e vídeos.]]></description>
@@ -217,6 +106,117 @@
       <link>http://expresso.sapo.pt/desporto/2016-11-22-Grande-penalidade-para-o-Sporting</link>
       <guid isPermaLink="false">25f90861-1fee-4179-b45f-6b2633e362a7</guid>
       <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Grande-penalidade-para-o-Sporting</impresa:contentUri>
+    </item>
+  </channel>
+  <channel name="Público">
+    <title>Publico.pt - Geral</title>
+    <link>//www.publico.pt</link>
+    <description>Descrição</description>
+    <copyright>© 2016 PÚBLICO Comunicação Social SA</copyright>
+    <language>pt-pt</language>
+    <lastBuildDate>Wed, 23 Nov 2016 09:34:49 GMT</lastBuildDate>
+    <category>Geral</category>
+    <ttl>5</ttl>
+    <managingEditor>ultimahora@publico.pt (Última Hora)</managingEditor>
+    <webMaster>webmaster@publico.pt (Webmaster)</webMaster>
+    <image>
+      <url>http://static.publico.pt/files/header/img/publico.png</url>
+      <title>Publico.pt - Escolha do Editor</title>
+      <link>//www.publico.pt</link>
+      <width>85</width>
+    </image>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/PublicoRSS" />
+    <feedburner:info uri="publicorss" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" />
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>Morreu a senadora espanhola Rita Barberá, que estava sob investigação</title>
+      <description>&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/9zuX2MnIpzQ" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/mundo/noticia/morreu-a-senadora-espanhola-rita-barbera-que-estava-sob-investigacao-1752233</link>
+      <category>Mundo</category>
+      <pubDate>Wed, 23 Nov 2016 09:10:52 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PÚBLICO</dc:creator>
+      <guid>//www.publico.pt/mundo/noticia/morreu-a-senadora-espanhola-rita-barbera-que-estava-sob-investigacao-1752233</guid>
+    </item>
+    <item>
+      <title>Ex-director do SEF ajudou amigos do ministro para salvar cargo e serviço</title>
+      <description>O &lt;i&gt;Diário de Notícias&lt;/i&gt; cita o relatório da Inspecção-geral da Administração Interna, que entende ter existido violação de conduta com o objectivo de evitar que o serviço fosse extinto.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/xcTnCh6YHD8" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/sociedade/noticia/ex-director-do-sef-facilitou-amigos-do-ministro-para-salvar-cargo-e-servico-1752231</link>
+      <category>Sociedade</category>
+      <pubDate>Wed, 23 Nov 2016 08:51:09 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">PÚBLICO</dc:creator>
+      <guid>//www.publico.pt/sociedade/noticia/ex-director-do-sef-facilitou-amigos-do-ministro-para-salvar-cargo-e-servico-1752231</guid>
+    </item>
+    <item>
+      <title>Descontos nos transportes do Porto? E quem paga?</title>
+      <description>Autarcas do Porto respondem ao ministro defendendo mais liberdade na gestão da STCP.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/SshhFkOuYDs" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/local/noticia/descontos-nos-transportes-do-porto-e-quem-paga-1752186</link>
+      <category>Local</category>
+      <pubDate>Wed, 23 Nov 2016 08:36:06 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Abel Coentrão</dc:creator>
+      <guid>//www.publico.pt/local/noticia/descontos-nos-transportes-do-porto-e-quem-paga-1752186</guid>
+    </item>
+    <item>
+      <title>Benfica, o apuramento imediato passa por fazer história na Turquia</title>
+      <description>Equipa da Luz nunca ganhou em solo turco. Besiktas ainda não perdeu na presente temporada.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/cdagQAx9H-A" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/desporto/noticia/o-apuramento-imediato-passa-por-fazer-historia-na-turquia-1752161</link>
+      <category>Desporto</category>
+      <pubDate>Wed, 23 Nov 2016 08:32:38 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nuno Sousa</dc:creator>
+      <guid>//www.publico.pt/desporto/noticia/o-apuramento-imediato-passa-por-fazer-historia-na-turquia-1752161</guid>
+    </item>
+    <item>
+      <title>Há uma nova história para contar sobre a hipertensão</title>
+      <description>O sistema imunitário está ligado à hipertensão arterial, revela uma linha de investigação recente que já resultou num ensaio experimental contra a hipertensão em ratinhos e que poderá vir a ser aplicado em humanos.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/YL3-8m5j5a4" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/ciencia/noticia/ha-uma-nova-historia-para-contar-sobre-a-hipertensao-1752132</link>
+      <category>Ciência</category>
+      <pubDate>Wed, 23 Nov 2016 08:32:00 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nicolau Ferreira</dc:creator>
+      <guid>//www.publico.pt/ciencia/noticia/ha-uma-nova-historia-para-contar-sobre-a-hipertensao-1752132</guid>
+    </item>
+    <item>
+      <title>Mais de 1300 inquéritos sobre pornografia infantil em três anos</title>
+      <description>O relatório dos inquéritos referente a pornografia infantil demonstra que o DCIAP, em colaboração com NCMEC, recebeu 699 participações entre Janeiro e Junho deste ano. Algumas delas geraram a abertura de inquéritos.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/03bIgLA-4pQ" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/sociedade/noticia/mais-de-1300-inqueritos-sobre-pornografia-infantil-entraram-no-mp-em-tres-anos-1752230</link>
+      <category>Sociedade</category>
+      <pubDate>Wed, 23 Nov 2016 08:30:04 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Lusa</dc:creator>
+      <guid>//www.publico.pt/sociedade/noticia/mais-de-1300-inqueritos-sobre-pornografia-infantil-entraram-no-mp-em-tres-anos-1752230</guid>
+    </item>
+    <item>
+      <title>Cinco perguntas sobre a tensão arterial elevada</title>
+      <description>&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/TWseV77sUZs" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/ciencia/noticia/cinco-perguntas-sobre-a-hipertensao-1752134</link>
+      <category>Ciência</category>
+      <pubDate>Wed, 23 Nov 2016 08:28:00 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Nicolau Ferreira</dc:creator>
+      <guid>//www.publico.pt/ciencia/noticia/cinco-perguntas-sobre-a-hipertensao-1752134</guid>
+    </item>
+    <item>
+      <title>Euribor não muda rumo por causa de Trump</title>
+      <description>Mercados estão à espera de prolongamento das políticas expansionistas por parte do BCE.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/_say5wUFR_w" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/economia/noticia/euribor-nao-muda-rumo-por-causa-de-trump-1752182</link>
+      <category>Economia</category>
+      <pubDate>Wed, 23 Nov 2016 08:19:05 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Sérgio Aníbal</dc:creator>
+      <guid>//www.publico.pt/economia/noticia/euribor-nao-muda-rumo-por-causa-de-trump-1752182</guid>
+    </item>
+    <item>
+      <title>Maiores dificuldades nas simulações</title>
+      <description>A concessão de crédito à habitação a taxa variável já não é fácil.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/q89yThk-sx0" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/economia/noticia/maiores-dificuldades-nas-simulacoes-1752192</link>
+      <category>Economia</category>
+      <pubDate>Wed, 23 Nov 2016 08:18:10 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rosa Soares</dc:creator>
+      <guid>//www.publico.pt/economia/noticia/maiores-dificuldades-nas-simulacoes-1752192</guid>
+    </item>
+    <item>
+      <title>Clientes pouco protegidos nos empréstimos à habitação com taxa fixa</title>
+      <description>Bancos decidem livremente as condições na modalidade fixa e é muito difícil fazer comparações.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/2uRjPLrhqiY" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/economia/noticia/clientes-estao-pouco-protegidos-nos-emprestimos-a-habitacao-a-taxa-fixas-1752179</link>
+      <category>Economia</category>
+      <pubDate>Wed, 23 Nov 2016 08:15:46 GMT</pubDate>
+      <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rosa Soares</dc:creator>
+      <guid>//www.publico.pt/economia/noticia/clientes-estao-pouco-protegidos-nos-emprestimos-a-habitacao-a-taxa-fixas-1752179</guid>
     </item>
   </channel>
 </channels>
