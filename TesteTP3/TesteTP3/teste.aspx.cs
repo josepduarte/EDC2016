@@ -18,7 +18,7 @@ namespace TesteTP3
 
         protected void Button1_Click(object sender, EventArgs e)
         {
-
+            Response.Redirect("ReadFeeds.aspx");
         }
 
         protected void DetailsView1_ItemInserting(object sender, DetailsViewInsertEventArgs e)

@@ -28,7 +28,10 @@
         </EmptyDataTemplate>
     </asp:DetailsView>
     <asp:XmlDataSource ID="XmlDataSource1" runat="server" DataFile="~/App_Data/xml.xml" TransformFile="~/bla.xslt"></asp:XmlDataSource>
-    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Button" />
+    <br />
+    <br />
+    <br />
+    <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Read Feeds" />
 </asp:Content>
 <asp:Content ID="Content3" ContentPlaceHolderID="MainContent" runat="server">
 </asp:Content>
