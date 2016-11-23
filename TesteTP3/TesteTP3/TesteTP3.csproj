@@ -198,12 +198,16 @@
     <Content Include="Account\ResetPasswordConfirmation.aspx" />
     <Content Include="Account\TwoFactorAuthenticationSignIn.aspx" />
     <Content Include="Account\VerifyPhoneNumber.aspx" />
-    <Content Include="App_Data\public_feeds.xml" />
+    <Content Include="App_Data\public_feeds.xml">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="App_Data\xml.xml">
       <SubType>Designer</SubType>
     </Content>
     <Content Include="bla.xslt" />
-    <Content Include="channels_titles.xslt" />
+    <Content Include="channels_titles.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Contact.aspx" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
@@ -218,6 +222,9 @@
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="info_channel.xslt" />
+    <Content Include="items.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="ReadFeeds.aspx" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

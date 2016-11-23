@@ -13,6 +13,9 @@ namespace TesteTP3
     {
         protected void Page_Load(object sender, EventArgs e)
         {
+            items.XPath = "/channels/channel[@title='" + DetailsView1.Rows[0].Cells[1].Text.ToString() + "']/item";
+            items.DataBind();
+
             Debug.WriteLine("BLA: " + DropDownList1.Items.ToString());
             string title = DropDownList1.SelectedValue;
             if (title == string.Empty)
@@ -34,6 +37,8 @@ namespace TesteTP3
        
             info.DataBind();
             DetailsView1.DataBind();
+
+            
         }
 
         protected void DropDownList1_SelectedIndexChanged(object sender, EventArgs e)
@@ -64,6 +69,11 @@ namespace TesteTP3
         protected void Button1_Click(object sender, EventArgs e)
         {
             Response.Redirect("teste.aspx");
+        }
+
+        protected void Repeater1_ItemCommand(object source, RepeaterCommandEventArgs e)
+        {
+
         }
     }
 }

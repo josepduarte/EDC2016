@@ -26,4 +26,33 @@
     </asp:DetailsView>
     <asp:XmlDataSource ID="info" runat="server" DataFile="~/App_Data/public_feeds.xml" TransformFile="~/info_channel.xslt"></asp:XmlDataSource>
     <br />
+    <asp:XmlDataSource ID="items" runat="server" DataFile="~/App_Data/public_feeds.xml" TransformFile="~/items.xslt" XPath="/channels/channel/item"></asp:XmlDataSource>
+    <asp:Repeater ID="Repeater1" runat="server" DataSourceID="items">
+        <ItemTemplate> 
+                <table class="table">
+                    <tr>
+                        <strong> 
+                            <%# XPath("@title")%><br /> 
+                        </strong> 
+                    </tr>
+                    <tr>
+                        <strong> Description: </strong> <%# XPath("@description")%><br /> 
+                    </tr>
+                    <tr>
+                        <strong> Publication date: </strong> <%# XPath("@pubdate")%><br /> 
+                    </tr>
+                    <tr>
+                        <strong> Category: </strong> <%# XPath("@category")%><br /> 
+                    </tr>
+                    <tr>
+                        <strong> Link: </strong> <%# XPath("@link")%><br /> 
+                    </tr>
+                    <tr>
+                        <strong> Guid: </strong> <%# XPath("@guid")%><br /> 
+                    </tr>                
+            </table>
+      
+        </ItemTemplate> 
+    </asp:Repeater>
+    <br />
 </asp:Content>
