@@ -1,11 +1,15 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <listaDeRSS>
   <feed>
+    <name>Público</name>
+    <url>http://feeds.feedburner.com/PublicoRSS</url>
+  </feed>
+  <feed>
     <name>Expresso</name>
     <url>http://feeds.feedburner.com/Expresso-geral</url>
   </feed>
   <feed>
-    <name>Público</name>
-    <url>http://feeds.feedburner.com/PublicoRSS</url>
+    <name>Visao</name>
+    <url>http://feeds.feedburner.com/visao-geral</url>
   </feed>
 </listaDeRSS>

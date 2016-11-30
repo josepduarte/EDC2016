@@ -205,6 +205,9 @@
       <SubType>Designer</SubType>
     </Content>
     <Content Include="bla.xslt" />
+    <Content Include="categories.xslt">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="channels_titles.xslt">
       <SubType>Designer</SubType>
     </Content>
@@ -229,6 +232,7 @@
     <Content Include="fonts\fontawesome-webfont.woff" />
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.eot" />
+    <Content Include="Agregator.aspx" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="info_channel.xslt" />
     <Content Include="items.xslt">
@@ -269,6 +273,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Site.Master" />
+    <Content Include="sources.xslt" />
     <Content Include="teste.aspx" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
@@ -455,6 +460,13 @@
     </Compile>
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="Agregator.aspx.cs">
+      <DependentUpon>Agregator.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Agregator.aspx.designer.cs">
+      <DependentUpon>Agregator.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup />

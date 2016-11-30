@@ -3,16 +3,18 @@
     xmlns:msxsl="urn:schemas-microsoft-com:xslt" exclude-result-prefixes="msxsl"
 >
     <xsl:output method="xml" indent="yes"/>
-
+    
     <xsl:template match="channels">
-      <titles>
-        <xsl:for-each select="//channel">
-          <title>
-            <xsl:attribute name="category">
-              <xsl:value-of select="category"/>
-            </xsl:attribute>
-          </title>
+      <items>
+        <xsl:for-each select="channel">
+          <xsl:for-each select="item">
+            <item>
+              <xsl:attribute name="category">
+                <xsl:value-of select="category"/>
+              </xsl:attribute>
+            </item>
+          </xsl:for-each>
         </xsl:for-each>
-      </titles>
+      </items>
     </xsl:template>
 </xsl:stylesheet>

@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" media="screen" href="/~d/styles/rss2full.xsl"?>
+<?xml-stylesheet type="text/css" media="screen" href="http://feeds.feedburner.com/~d/styles/itemcontent.css"?>
+<rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" version="2.0">
+  <channel>
+    <title>Publico.pt - Geral</title>
+    <link>//www.publico.pt</link>
+    <description>Descrição</description>
+    <copyright>© 2016 PÚBLICO Comunicação Social SA</copyright>
+    <language>pt-pt</language>
+    <lastBuildDate>Wed, 23 Nov 2016 09:58:09 GMT</lastBuildDate>
+    <category>Geral</category>
+    <ttl>5</ttl>
+    <managingEditor>ultimahora@publico.pt (Última Hora)</managingEditor>
+    <webMaster>webmaster@publico.pt (Webmaster)</webMaster>
+    <image>
+      <url>http://static.publico.pt/files/header/img/publico.png</url>
+      <title>Publico.pt - Escolha do Editor</title>
+      <link>//www.publico.pt</link>
+      <width>85</width>
+    </image>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/PublicoRSS" />
+    <feedburner:info uri="publicorss" />
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+    <item>
+      <title>Estado procura novas jazidas no Alentejo em consórcio com empresa turca</title>
+      <description>Contratos de prospecção e pesquisa na faixa piritosa ibérica têm duração de três anos e significam um investimento de mais oito milhões de euros.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/iBZWsQmkQfY" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/economia/noticia/turcos-da-esam-e-edm-procuram-novas-jazidas-proximas-de-neves-corvo-1752169</link>
+      <category>Economia</category>
+      <pubDate>Wed, 23 Nov 2016 09:54:17 GMT</pubDate>
+      <dc:creator>Luísa Pinto</dc:creator>
+      <guid>//www.publico.pt/economia/noticia/turcos-da-esam-e-edm-procuram-novas-jazidas-proximas-de-neves-corvo-1752169</guid>
+    </item>
+    <item>
+      <title>Os efeitos da Turistificação de Lisboa</title>
+      <description>Cada vez mais gente e menos lisboetas. Câmara entrega a gestão da habitação ao aluguer online de alojamento para férias&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/-e2OwqapwI8" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/politica/noticia/os-efeitos-da-turistificacao-de-lisboa-1752237</link>
+      <category>Política</category>
+      <pubDate>Wed, 23 Nov 2016 09:45:20 GMT</pubDate>
+      <dc:creator>António Sérgio Rosa de Carvalho</dc:creator>
+      <guid>//www.publico.pt/politica/noticia/os-efeitos-da-turistificacao-de-lisboa-1752237</guid>
+    </item>
+    <item>
+      <title>Liga dos Campeões: "Canhões" disparam em guerra diplomática</title>
+      <description>Arsenal recebe o Paris Saint-Germain em clima de hostilidade, com autoridades inglesas a negarem o visto ao defesa Serge Aurier.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/bolRwpbEhAA" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/desporto/noticia/canhoes-disparam-em-guerra-diplomatica-1752164</link>
+      <category>Desporto</category>
+      <pubDate>Wed, 23 Nov 2016 09:36:56 GMT</pubDate>
+      <dc:creator>Augusto Bernardino</dc:creator>
+      <guid>//www.publico.pt/desporto/noticia/canhoes-disparam-em-guerra-diplomatica-1752164</guid>
+    </item>
+    <item>
+      <title>Sons em Trânsito abre com cartaz forte para “cativar novas gerações”</title>
+      <description>Histórico festival de Aveiro regressa esta quarta-feira ao fim de nove anos de ausência. Com Elza Soares, Mayra Andrade, Amadou &amp; Mariam, Ed Motta, Céu, Vicente Amigo, Aline Frazão e Tony Sa’Med.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/5ba9xwN_1S4" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/culturaipsilon/noticia/sons-em-transito-abre-com-cartaz-forte-para-cativar-novas-geracoes-1752080</link>
+      <category>Cultura-Ípsilon</category>
+      <pubDate>Wed, 23 Nov 2016 09:36:00 GMT</pubDate>
+      <dc:creator>Nuno Pacheco</dc:creator>
+      <guid>//www.publico.pt/culturaipsilon/noticia/sons-em-transito-abre-com-cartaz-forte-para-cativar-novas-geracoes-1752080</guid>
+    </item>
+    <item>
+      <title>Governo britânico apresenta prioridades orçamentais perante "Brexit"</title>
+      <description>O ministro da Economia, Philip Hammond, apresenta Declaração de Outono com as prioridades orçamentais que irão configurar do Orçamento de Estado. A expectativa recai sobre medidas que impulsionem a economia britânica e valorizem a libra, que caiu 18% desde o referendo.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/SY1wUv96xWI" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/economia/noticia/governo-britanico-apresenta-prioridades-orcamentais-perante-brexit-1752232</link>
+      <category>Economia</category>
+      <pubDate>Wed, 23 Nov 2016 09:35:01 GMT</pubDate>
+      <dc:creator>Lusa</dc:creator>
+      <guid>//www.publico.pt/economia/noticia/governo-britanico-apresenta-prioridades-orcamentais-perante-brexit-1752232</guid>
+    </item>
+    <item>
+      <title>Morreu a senadora espanhola Rita Barberá, que estava sob investigação</title>
+      <description>&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/9zuX2MnIpzQ" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/mundo/noticia/morreu-a-senadora-espanhola-rita-barbera-que-estava-sob-investigacao-1752233</link>
+      <category>Mundo</category>
+      <pubDate>Wed, 23 Nov 2016 09:10:52 GMT</pubDate>
+      <dc:creator>PÚBLICO</dc:creator>
+      <guid>//www.publico.pt/mundo/noticia/morreu-a-senadora-espanhola-rita-barbera-que-estava-sob-investigacao-1752233</guid>
+    </item>
+    <item>
+      <title>Ex-director do SEF ajudou amigos do ministro para salvar cargo e serviço</title>
+      <description>O &lt;i&gt;Diário de Notícias&lt;/i&gt; cita o relatório da Inspecção-geral da Administração Interna, que entende ter existido violação de conduta com o objectivo de evitar que o serviço fosse extinto.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/xcTnCh6YHD8" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/sociedade/noticia/ex-director-do-sef-facilitou-amigos-do-ministro-para-salvar-cargo-e-servico-1752231</link>
+      <category>Sociedade</category>
+      <pubDate>Wed, 23 Nov 2016 08:51:09 GMT</pubDate>
+      <dc:creator>PÚBLICO</dc:creator>
+      <guid>//www.publico.pt/sociedade/noticia/ex-director-do-sef-facilitou-amigos-do-ministro-para-salvar-cargo-e-servico-1752231</guid>
+    </item>
+    <item>
+      <title>Descontos nos transportes do Porto? E quem paga?</title>
+      <description>Autarcas do Porto respondem ao ministro defendendo mais liberdade na gestão da STCP.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/SshhFkOuYDs" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/local/noticia/descontos-nos-transportes-do-porto-e-quem-paga-1752186</link>
+      <category>Local</category>
+      <pubDate>Wed, 23 Nov 2016 08:36:06 GMT</pubDate>
+      <dc:creator>Abel Coentrão</dc:creator>
+      <guid>//www.publico.pt/local/noticia/descontos-nos-transportes-do-porto-e-quem-paga-1752186</guid>
+    </item>
+    <item>
+      <title>Benfica, o apuramento imediato passa por fazer história na Turquia</title>
+      <description>Equipa da Luz nunca ganhou em solo turco. Besiktas ainda não perdeu na presente temporada.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/cdagQAx9H-A" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/desporto/noticia/o-apuramento-imediato-passa-por-fazer-historia-na-turquia-1752161</link>
+      <category>Desporto</category>
+      <pubDate>Wed, 23 Nov 2016 08:32:38 GMT</pubDate>
+      <dc:creator>Nuno Sousa</dc:creator>
+      <guid>//www.publico.pt/desporto/noticia/o-apuramento-imediato-passa-por-fazer-historia-na-turquia-1752161</guid>
+    </item>
+    <item>
+      <title>Há uma nova história para contar sobre a hipertensão</title>
+      <description>O sistema imunitário está ligado à hipertensão arterial, revela uma linha de investigação recente que já resultou num ensaio experimental contra a hipertensão em ratinhos e que poderá vir a ser aplicado em humanos.&lt;img src="http://feeds.feedburner.com/~r/PublicoRSS/~4/YL3-8m5j5a4" height="1" width="1" alt=""/&gt;</description>
+      <link>https://www.publico.pt/ciencia/noticia/ha-uma-nova-historia-para-contar-sobre-a-hipertensao-1752132</link>
+      <category>Ciência</category>
+      <pubDate>Wed, 23 Nov 2016 08:32:00 GMT</pubDate>
+      <dc:creator>Nicolau Ferreira</dc:creator>
+      <guid>//www.publico.pt/ciencia/noticia/ha-uma-nova-historia-para-contar-sobre-a-hipertensao-1752132</guid>
+    </item>
+  </channel>
+</rss>

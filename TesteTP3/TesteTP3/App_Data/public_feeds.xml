@@ -1,113 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <channels>
-  <channel name="Expresso">
-    <title>Expresso</title>
-    <description><![CDATA[No Expresso leia opinião, economia, política, cultura, lifestyle, cinema, desporto, última hora. Veja fotografias e vídeos.]]></description>
-    <link>http://expresso.sapo.pt/</link>
-    <language>pt-PT</language>
-    <pubDate>Wed, 23 Nov 2016 01:19:03 +0000</pubDate>
-    <image>
-      <url>http://images-cdn.impresa.pt/expresso/2015-10-28-expresso-logo.png/original</url>
-      <title>Expresso</title>
-      <link>http://expresso.sapo.pt</link>
-    </image>
-    <copyright>Expresso 2016</copyright>
-    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/expresso-geral" />
-    <feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="expresso-geral" />
-    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
-    <item>
-      <title>Rogério Casanova sabe perfeitamente o que nós estamos a pensar sobre o João Pereira. E sobre André? "Whatever"</title>
-      <description />
-      <pubDate>Tue, 22 Nov 2016 23:13:12 +0000</pubDate>
-      <category>Desporto</category>
-      <link>http://expresso.sapo.pt/desporto/2016-11-22-Rogerio-Casanova-sabe-perfeitamente-o-que-nos-estamos-a-pensar-sobre-o-Joao-Pereira.-E-sobre-Andre--Whatever</link>
-      <guid isPermaLink="false">f1253e05-180c-451d-8b23-328d5061f16c</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Rogerio-Casanova-sabe-perfeitamente-o-que-nos-estamos-a-pensar-sobre-o-Joao-Pereira.-E-sobre-Andre--Whatever</impresa:contentUri>
-    </item>
-    <item>
-      <title>A apreciação à exibição de Herrera em Copenhaga e outras considerações de Lá em Casa Mando Eu</title>
-      <description />
-      <pubDate>Tue, 22 Nov 2016 22:51:47 +0000</pubDate>
-      <category>Desporto</category>
-      <link>http://expresso.sapo.pt/desporto/2016-11-22-A-apreciacao-a-exibicao-de-Herrera-em-Copenhaga-e-outras-consideracoes-de-La-em-Casa-Mando-Eu</link>
-      <guid isPermaLink="false">1fbf13c7-ecf1-4e3d-8aeb-9ad576791772</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-A-apreciacao-a-exibicao-de-Herrera-em-Copenhaga-e-outras-consideracoes-de-La-em-Casa-Mando-Eu</impresa:contentUri>
-    </item>
-    <item>
-      <title>Os oitenta e sete são os novos 'oitchentcha e otcho' (a crónica do Sporting-Real Madrid)</title>
-      <description />
-      <pubDate>Tue, 22 Nov 2016 22:28:14 +0000</pubDate>
-      <category>Desporto</category>
-      <link>http://expresso.sapo.pt/desporto/2016-11-22-Os-oitenta-e-sete-sao-os-novos-oitchentcha-e-otcho--a-cronica-do-Sporting-Real-Madrid-</link>
-      <guid isPermaLink="false">b6956956-1341-4e0f-91d7-34f45d547104</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Os-oitenta-e-sete-sao-os-novos-oitchentcha-e-otcho--a-cronica-do-Sporting-Real-Madrid-</impresa:contentUri>
-    </item>
-    <item>
-      <title>Um redondo, entediante e frio... zero (a crónica do jogo do FC Porto)</title>
-      <description />
-      <pubDate>Tue, 22 Nov 2016 22:18:28 +0000</pubDate>
-      <category>Desporto</category>
-      <link>http://expresso.sapo.pt/desporto/2016-11-22-Um-redondo-entediante-e-frio.-zero--a-cronica-do-jogo-do-FC-Porto-</link>
-      <guid isPermaLink="false">e35911a8-9303-4d5b-8392-462a677471d0</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Um-redondo-entediante-e-frio.-zero--a-cronica-do-jogo-do-FC-Porto-</impresa:contentUri>
-    </item>
-    <item>
-      <title>Jorge Jesus: “As pessoas andam enganadas, mas eu não. O fair play é uma treta e o Kovacic fez bem, fez bem!”</title>
-      <description />
-      <pubDate>Tue, 22 Nov 2016 22:08:45 +0000</pubDate>
-      <category>Desporto</category>
-      <link>http://expresso.sapo.pt/desporto/2016-11-22-Jorge-Jesus-As-pessoas-andam-enganadas-mas-eu-nao.-O-fair-play-e-uma-treta-e-o-Kovacic-fez-bem-fez-bem</link>
-      <guid isPermaLink="false">eb03ed02-7b7b-41cd-899f-151ef958c141</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Jorge-Jesus-As-pessoas-andam-enganadas-mas-eu-nao.-O-fair-play-e-uma-treta-e-o-Kovacic-fez-bem-fez-bem</impresa:contentUri>
-    </item>
-    <item>
-      <media:content url="http://images-cdn.impresa.pt/expresso/2016-11-22-1.jpg/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
-      <title>Romances e novelas ajudam a combater a violência doméstica?</title>
-      <description><![CDATA[Em Portugal, 85% das vítimas de violência doméstica são mulheres. Na semana em que se assinala o Dia Internacional para a Eliminação da Violência Contra as Mulheres, o  <strong>Expresso</strong> conversou com a psicóloga e escritora Ana Cristina Silva, e com a argumentista e ativista feminista Helena Amaral sobre o papel da ficção na prevenção e combate a este crime público]]></description>
-      <pubDate>Tue, 22 Nov 2016 21:50:48 +0000</pubDate>
-      <category>Sociedade</category>
-      <link>http://expresso.sapo.pt/sociedade/2016-11-22-Romances-e-novelas-ajudam-a-combater-a-violencia-domestica--1</link>
-      <guid isPermaLink="false">579ba0b2-9de7-489d-8078-47f457c3586a</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Romances-e-novelas-ajudam-a-combater-a-violencia-domestica--1</impresa:contentUri>
-    </item>
-    <item>
-      <title>Balde de água fria em Alvalade: golo de Benzema</title>
-      <description />
-      <pubDate>Tue, 22 Nov 2016 21:30:14 +0000</pubDate>
-      <category>Desporto</category>
-      <link>http://expresso.sapo.pt/desporto/2016-11-22-Balde-de-agua-fria-em-Alvalade-golo-de-Benzema</link>
-      <guid isPermaLink="false">d7a6e9f4-f66f-46a3-a49d-454a6d4cff65</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Balde-de-agua-fria-em-Alvalade-golo-de-Benzema</impresa:contentUri>
-    </item>
-    <item>
-      <media:content url="http://images-cdn.impresa.pt/expresso/2016-11-22-Donald-Trump/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
-      <title>Donald Trump condena extrema-direita norte-americana e sonha com a paz na Palestina</title>
-      <description><![CDATA[“Não quero alimentar esse grupo e repudio o grupo” disse o Presidente norte-americano eleito em entrevista ao The New York Times, referindo-se ao movimento de extrema-direita 'alt-right', recém-surgido nos Estados Unidos]]></description>
-      <pubDate>Tue, 22 Nov 2016 21:25:17 +0000</pubDate>
-      <category>Internacional</category>
-      <link>http://expresso.sapo.pt/internacional/2016-11-22-Donald-Trump-condena-extrema-direita-norte-americana-e-sonha-com-a-paz-na-Palestina</link>
-      <guid isPermaLink="false">b53adf17-5c59-4ae7-a63c-854c22249abb</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Donald-Trump-condena-extrema-direita-norte-americana-e-sonha-com-a-paz-na-Palestina</impresa:contentUri>
-    </item>
-    <item>
-      <title>Empate em Alvalade: marca Adrien Silva</title>
-      <description />
-      <pubDate>Tue, 22 Nov 2016 21:23:27 +0000</pubDate>
-      <category>Desporto</category>
-      <link>http://expresso.sapo.pt/desporto/2016-11-22-Empate-em-Alvalade-marca-Adrien-Silva</link>
-      <guid isPermaLink="false">4b600aef-ee31-494f-abf1-6c0b2167e7b9</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Empate-em-Alvalade-marca-Adrien-Silva</impresa:contentUri>
-    </item>
-    <item>
-      <title>Grande penalidade para o Sporting</title>
-      <description />
-      <pubDate>Tue, 22 Nov 2016 21:22:17 +0000</pubDate>
-      <category>Desporto</category>
-      <link>http://expresso.sapo.pt/desporto/2016-11-22-Grande-penalidade-para-o-Sporting</link>
-      <guid isPermaLink="false">25f90861-1fee-4179-b45f-6b2633e362a7</guid>
-      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Grande-penalidade-para-o-Sporting</impresa:contentUri>
-    </item>
-  </channel>
   <channel name="Público">
     <title>Publico.pt - Geral</title>
     <link>//www.publico.pt</link>
@@ -217,6 +109,235 @@
       <pubDate>Wed, 23 Nov 2016 08:15:46 GMT</pubDate>
       <dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Rosa Soares</dc:creator>
       <guid>//www.publico.pt/economia/noticia/clientes-estao-pouco-protegidos-nos-emprestimos-a-habitacao-a-taxa-fixas-1752179</guid>
+    </item>
+  </channel>
+  <channel name="Expresso">
+    <title>Expresso</title>
+    <description><![CDATA[No Expresso leia opinião, economia, política, cultura, lifestyle, cinema, desporto, última hora. Veja fotografias e vídeos.]]></description>
+    <link>http://expresso.sapo.pt/</link>
+    <language>pt-PT</language>
+    <pubDate>Wed, 23 Nov 2016 10:17:19 +0000</pubDate>
+    <image>
+      <url>http://images-cdn.impresa.pt/expresso/2015-10-28-expresso-logo.png/original</url>
+      <title>Expresso</title>
+      <link>http://expresso.sapo.pt</link>
+    </image>
+    <copyright>Expresso 2016</copyright>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/expresso-geral" />
+    <feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="expresso-geral" />
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+    <item>
+      <media:content url="http://images-cdn.impresa.pt/expresso/2016-11-23-Mark-Zuckerberg-Xi-Jinping/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <title>Facebook "desenvolveu instrumentos de censura" para agradar à China</title>
+      <description><![CDATA[Fontes internas citadas pelo "New York Times" dizem que software especial pode nunca vir a ser usado. Porta-voz da gigante cibernética não confirma nem desmente a existência do projeto]]></description>
+      <pubDate>Wed, 23 Nov 2016 10:09:18 +0000</pubDate>
+      <category>Internacional</category>
+      <link>http://expresso.sapo.pt/internacional/2016-11-23-Facebook-desenvolveu-instrumentos-de-censura-para-agradar-a-China</link>
+      <guid isPermaLink="false">f2617820-06cf-4d05-8b2e-80e0169e07ff</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-23-Facebook-desenvolveu-instrumentos-de-censura-para-agradar-a-China</impresa:contentUri>
+    </item>
+    <item>
+      <media:content url="http://images-cdn.impresa.pt/expresso/2016-11-23-rds_bpi_serralves_05.jpeg/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <title>BPI sobe no dia em que se vota a redução da exposição a Angola</title>
+      <description><![CDATA[Os investidores desvalorizam a possibilidade de impugnação da deliberação da Assembleia Geral do BPI desta quarta-feira, onde será votada a venda de 2% do Banco Fomento de Angola à Unitel, operadora liderada por Isabel dos Santos]]></description>
+      <pubDate>Wed, 23 Nov 2016 09:51:51 +0000</pubDate>
+      <category>Economia</category>
+      <link>http://expresso.sapo.pt/economia/2016-11-23-BPI-sobe-no-dia-em-que-se-vota-a-reducao-da-exposicao-a-Angola</link>
+      <guid isPermaLink="false">a78fb62c-5a9f-48f9-bb27-1a4567f20231</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-23-BPI-sobe-no-dia-em-que-se-vota-a-reducao-da-exposicao-a-Angola</impresa:contentUri>
+    </item>
+    <item>
+      <media:content url="http://images-cdn.impresa.pt/expresso/2016-11-23-POLICIA-FRANCA/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <title>Homens que acolheram o jiadista de Aveiro foram libertados</title>
+      <description><![CDATA[O alegado terrorista Hicham El Hanafi, que vivia em Aveiro, foi acolhido em Marselha por duas pessoas, agora em liberdade. O suspeito de 26 anos continua detido]]></description>
+      <pubDate>Wed, 23 Nov 2016 09:46:25 +0000</pubDate>
+      <category>Sociedade</category>
+      <link>http://expresso.sapo.pt/sociedade/2016-11-23-Homens-que-acolheram-o-jiadista-de-Aveiro-foram-libertados</link>
+      <guid isPermaLink="false">8be2788d-a09f-40db-b5f0-c88363c38a55</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-23-Homens-que-acolheram-o-jiadista-de-Aveiro-foram-libertados</impresa:contentUri>
+    </item>
+    <item>
+      <title>Protesto contra atraso nas bolsas de doutoramentos</title>
+      <description><![CDATA[A Associação de Bolseiros de Investigação Científica frisa que “a assinatura dos contratos de bolsa é, sistematicamente, protelada para lá do suposto início das próprias bolsas, uma realidade que deixa em suspenso a vida de milhares de candidatos”]]></description>
+      <pubDate>Wed, 23 Nov 2016 09:34:13 +0000</pubDate>
+      <category>Sociedade</category>
+      <link>http://expresso.sapo.pt/sociedade/2016-11-23-Protesto-contra-atraso-nas-bolsas-de-doutoramentos</link>
+      <guid isPermaLink="false">188f5fc6-a129-4821-abbe-1eedccee0fa8</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-23-Protesto-contra-atraso-nas-bolsas-de-doutoramentos</impresa:contentUri>
+    </item>
+    <item>
+      <title>Juros da dívida com subida ligeira em dia de último leilão do ano</title>
+      <description><![CDATA[A uma hora do leilão de dívida obrigacionista que o IGCP vai realizar esta quarta-feira, os juros das obrigações a 5 anos no mercado secundário sobem para 2,18%. Desde 14 de novembro que estão acima de 2%. No prazo de referência, subiram para 3,66%. Apenas Itália e Portugal registam hoje subidas nos juros na zona euro]]></description>
+      <pubDate>Wed, 23 Nov 2016 09:26:33 +0000</pubDate>
+      <category>Economia</category>
+      <link>http://expresso.sapo.pt/economia/2016-11-23-Juros-da-divida-com-subida-ligeira-em-dia-de-ultimo-leilao-do-ano</link>
+      <guid isPermaLink="false">4e1fc946-051a-4ae6-b11d-1c83d0bc17ad</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-23-Juros-da-divida-com-subida-ligeira-em-dia-de-ultimo-leilao-do-ano</impresa:contentUri>
+    </item>
+    <item>
+      <title>“O país recuperou a sua normalidade e não há bem maior para um país do que viver tranquilamente a sua normalidade”</title>
+      <description />
+      <pubDate>Wed, 23 Nov 2016 09:05:15 +0000</pubDate>
+      <category>Está Dito</category>
+      <link>http://expresso.sapo.pt/opiniaoeblogues/estadito/2016-11-23-O-pais-recuperou-a-sua-normalidade-e-nao-ha-bem-maior-para-um-pais-do-que-viver-tranquilamente-a-sua-normalidade</link>
+      <guid isPermaLink="false">53509798-75bc-450f-a0d6-591f2c848f74</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-23-O-pais-recuperou-a-sua-normalidade-e-nao-ha-bem-maior-para-um-pais-do-que-viver-tranquilamente-a-sua-normalidade</impresa:contentUri>
+    </item>
+    <item>
+      <media:content url="http://images-cdn.impresa.pt/expresso/2016-09-26-Juan-Manuel-dos-Santos-presidente-Colombia/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <title>Colômbia e FARC assinam novo acordo de paz</title>
+      <description><![CDATA[Governo de Juan Manuel Santos diz que o novo acordo, a ser assinado na quinta-feira, vai ser levado a votação no Congresso mas não a referendo popular. O anterior acordo para pôr fim aos 52 anos de conflito interno foi chumbado pela maioria dos colombianos que foram às urnas em outubro]]></description>
+      <pubDate>Wed, 23 Nov 2016 09:00:17 +0000</pubDate>
+      <category>Internacional</category>
+      <link>http://expresso.sapo.pt/internacional/2016-11-23-Colombia-e-FARC-assinam-novo-acordo-de-paz</link>
+      <guid isPermaLink="false">73b07ffa-00ac-4e1e-9570-b1a7285ec1df</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-23-Colombia-e-FARC-assinam-novo-acordo-de-paz</impresa:contentUri>
+    </item>
+    <item>
+      <media:content url="http://images-cdn.impresa.pt/expresso/2013-02-21-Copia-Faria-de-Oliveira/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <title>Faria de Oliveira: “Banca está atrair investidores que não seriam os mais desejados”</title>
+      <description><![CDATA[A entrada da chinesa Fosun no BCP e a tentativa da ‘holding’ China Minsheng de se tornar acionista do Novo Banco foi um dos assuntos abordados no debate sobre o Futuro da Banca]]></description>
+      <pubDate>Wed, 23 Nov 2016 08:47:25 +0000</pubDate>
+      <category>Economia</category>
+      <link>http://expresso.sapo.pt/economia/2016-11-23-Faria-de-Oliveira-Banca-esta-atrair-investidores-que-nao-seriam-os-mais-desejados</link>
+      <guid isPermaLink="false">397638d2-3076-4644-841a-977134094451</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-23-Faria-de-Oliveira-Banca-esta-atrair-investidores-que-nao-seriam-os-mais-desejados</impresa:contentUri>
+    </item>
+    <item>
+      <media:content url="http://images-cdn.impresa.pt/expresso/2016-01-15-joe-berardo-colecao-arte-1/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <title>Museu Berardo vai deixar de ser gratuito</title>
+      <description><![CDATA[“Cobrar bilhete vai permitir ao museu dar resposta às suas despesas, às suas necessidades de funcionamento, sem depender tanto do financiamento dos parceiros institucionais”, disse fonte do ministério da Cultura ao “Público”]]></description>
+      <pubDate>Wed, 23 Nov 2016 08:34:26 +0000</pubDate>
+      <category>Revista de imprensa</category>
+      <link>http://expresso.sapo.pt/revista-de-imprensa/2016-11-23-Museu-Berardo-vai-deixar-de-ser-gratuito</link>
+      <guid isPermaLink="false">5c321ff6-d487-418f-a930-94fccf515e13</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-23-Museu-Berardo-vai-deixar-de-ser-gratuito</impresa:contentUri>
+    </item>
+    <item>
+      <title>Défice e dívida (sim, outra vez)</title>
+      <description />
+      <pubDate>Wed, 23 Nov 2016 08:24:52 +0000</pubDate>
+      <category>&amp;conomia à 4ª</category>
+      <link>http://expresso.sapo.pt/blogues/bloguet_economia/economia_quarta/2016-11-23-Defice-e-divida--sim-outra-vez-</link>
+      <guid isPermaLink="false">67609c13-90af-4606-aeab-d502100b75a3</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-23-Defice-e-divida--sim-outra-vez-</impresa:contentUri>
+    </item>
+  </channel>
+  <channel name="Visao">
+    <title>Visão</title>
+    <description><![CDATA[Visão]]></description>
+    <link>http://visao.sapo.pt/</link>
+    <language>pt-PT</language>
+    <pubDate>Wed, 23 Nov 2016 10:16:37 +0000</pubDate>
+    <image>
+      <url>http://images-cdn.impresa.pt/visao/2015-10-22-visao-logo-bottom.png/original/mw-250</url>
+      <title>Visão</title>
+      <link>http://visao.sapo.pt</link>
+    </image>
+    <copyright>Visão 2016</copyright>
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="self" type="application/rss+xml" href="http://feeds.feedburner.com/visao-geral" />
+    <feedburner:info xmlns:feedburner="http://rssnamespace.org/feedburner/ext/1.0" uri="visao-geral" />
+    <atom10:link xmlns:atom10="http://www.w3.org/2005/Atom" rel="hub" href="http://pubsubhubbub.appspot.com/" />
+    <item>
+      <media:content url="http://images-cdn.impresa.pt/visao/2016-10-28-Leiloes-1/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <title>Advogado denunciado pela VISÃO condenado a 5 anos e meio de prisão</title>
+      <description><![CDATA[Álvaro Dias criou um tribunal arbitral que só beneficiava clientes seus em dificuldades económicas e fechava a porta na cara dos respetivos credores. Nove anos após a VISÃO denunciar o caso, o advogado foi agora condenado a prisão efetiva, por falsificação de sentenças arbitrais e burla agravada]]></description>
+      <pubDate>Wed, 23 Nov 2016 09:53:45 +0000</pubDate>
+      <category>Sociedade</category>
+      <link>http://visao.sapo.pt/actualidade/sociedade/2016-11-23-Advogado-denunciado-pela-VISAO-condenado-a-5-anos-e-meio-de-prisao</link>
+      <guid isPermaLink="false">3fd61be0-1c06-422a-b0f7-cd15d120f2c8</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-23-Advogado-denunciado-pela-VISAO-condenado-a-5-anos-e-meio-de-prisao</impresa:contentUri>
+    </item>
+    <item>
+      <media:content url="http://images-cdn.impresa.pt/visao/2016-11-22-SakenaYacoobi_1.jpg-1/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <title>"Se o que se gasta em armamento fosse canalizado para a educação, estávamos mais perto de mudar 
+o mundo."</title>
+      <description><![CDATA[Em entrevista exclusiva à VISÃO, num encontro que decorreu na Galiza, a ativista afegã Sakena Yacoobi, Prémio Wise na última Cimeira Mundial para a Educação, conta como se contorna o terror e o medo imposto pelos talibãs, para ensinar as mulheres da sua terra]]></description>
+      <pubDate>Wed, 23 Nov 2016 09:51:15 +0000</pubDate>
+      <category>Mundo</category>
+      <link>http://visao.sapo.pt/actualidade/mundo/2016-11-23-Se-o-que-se-gasta-em-armamento-fosse-canalizado-para-a-educacao-estavamos-mais-perto-demudaromundo</link>
+      <guid isPermaLink="false">879f41a7-6d8a-4d40-831b-dcac643da37e</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-23-Se-o-que-se-gasta-em-armamento-fosse-canalizado-para-a-educacao-estavamos-mais-perto-demudaromundo</impresa:contentUri>
+    </item>
+    <item>
+      <media:content url="http://images-cdn.impresa.pt/visao/2016-01-29-Entrevista-Emprego/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <title>9 dicas para o ajudar a negociar o seu salário</title>
+      <description><![CDATA[Não se pode ignorar a importância do salário para um emprego e não apenas pelo dinheiro em si. Negociá-lo pode parecer e ser mesmo, para muita gente, algo difícil, assustador e preocupante. Um tema tão importante não devia ser tão temido. Por isso, se quiser melhorar a sua capacidade de negociação, tenha atenção a estas 9 dicas]]></description>
+      <pubDate>Wed, 23 Nov 2016 09:50:58 +0000</pubDate>
+      <category>Estudo do Dia</category>
+      <link>http://visao.sapo.pt/atualidade/estudo-do-dia/2016-11-23-9-dicas-para-o-ajudar-a-negociar-o-seu-salario</link>
+      <guid isPermaLink="false">8b4a85c3-1289-430f-aa89-228a7c8b985c</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-23-9-dicas-para-o-ajudar-a-negociar-o-seu-salario</impresa:contentUri>
+    </item>
+    <item>
+      <media:content url="http://images-cdn.impresa.pt/visao/2016-11-22-IMG_3321.JPG-1/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <title>Um problema de expressão</title>
+      <description><![CDATA[<strong>MACAU -</strong> Faz muito frio por aqui. O Inverno acontece por esta altura, intensifica-se entre janeiro e fevereiro. Mas este frio tem várias particularidades, a primeira delas é que aparece sem aviso prévio]]></description>
+      <pubDate>Wed, 23 Nov 2016 08:06:55 +0000</pubDate>
+      <category>Nós lá fora</category>
+      <link>http://visao.sapo.pt/nos-la-fora/2016-11-23-Um-problema-de-expressao</link>
+      <guid isPermaLink="false">e475c0fb-93c3-47d0-97a6-9f9c6087f52e</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-23-Um-problema-de-expressao</impresa:contentUri>
+    </item>
+    <item>
+      <media:content url="http://images-cdn.impresa.pt/visao/2016-11-22-Playboy-mulherengo/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <title>Playboys que sentem poder sobre as mulheres são mais vulneráveis a depressões</title>
+      <description><![CDATA[Novo estudo de larga escala, com amostra de mais de 19 mil homens, conclui que existe uma "forte associação" entre certos traços de uma personalidade sexista e a propensão para sofrer de perturbações mentais]]></description>
+      <pubDate>Tue, 22 Nov 2016 18:14:07 +0000</pubDate>
+      <category>Estudo do Dia</category>
+      <link>http://visao.sapo.pt/atualidade/estudo-do-dia/2016-11-22-Playboys-que-sentem-poder-sobre-as-mulheres-sao-mais-vulneraveis-a-depressoes</link>
+      <guid isPermaLink="false">8cb863f0-6aa0-4bec-9324-10b1fe69a56e</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Playboys-que-sentem-poder-sobre-as-mulheres-sao-mais-vulneraveis-a-depressoes</impresa:contentUri>
+    </item>
+    <item>
+      <media:content url="http://images-cdn.impresa.pt/visao/2016-11-22-LM-REST-ARVORE-MUNDO-10-11-16_-2-1.JPG-1/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <title>Árvore do Mundo: Comida com amor</title>
+      <description><![CDATA[O novo vegetariano do Porto é muito mais do que um restaurante. É uma forma, diz Joana Esteves, a cozinheira, “de amar os outros”]]></description>
+      <pubDate>Tue, 22 Nov 2016 16:42:32 +0000</pubDate>
+      <category>Comer e beber</category>
+      <link>http://visao.sapo.pt/actualidade/visaose7e/comer-e-beber/2016-11-22-Arvore-do-Mundo-Comida-com-amor</link>
+      <guid isPermaLink="false">290a7975-fde0-41ff-a61a-021dddf26883</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Arvore-do-Mundo-Comida-com-amor</impresa:contentUri>
+    </item>
+    <item>
+      <media:content url="http://images-cdn.impresa.pt/visao/2016-11-22-Miguel-Fragata-Ines-Barahona/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <title>'Do Bosque Para o Mundo': Uma longa viagem</title>
+      <description><![CDATA[A verdade sobre a crise dos refugiados, conta-se em  <em>Do Bosque Para o Mundo</em>, um espetáculo para crianças com mais de dez anos. Para ver no Teatro Municipal São Luiz, em Lisboa, a partir desta terça-feira, 22]]></description>
+      <pubDate>Tue, 22 Nov 2016 16:35:58 +0000</pubDate>
+      <category>Sair</category>
+      <link>http://visao.sapo.pt/actualidade/visaose7e/sair/2016-11-22-Do-Bosque-Para-o-Mundo-Uma-longa-viagem</link>
+      <guid isPermaLink="false">b9bd33a6-e9ce-4a42-8f83-2c5d3ccb5ee8</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Do-Bosque-Para-o-Mundo-Uma-longa-viagem</impresa:contentUri>
+    </item>
+    <item>
+      <media:content url="http://images-cdn.impresa.pt/visao/2016-06-23-RTX2HR1K.jpg/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <title>Partido do Brexit obrigado a devolver 173 mil euros à União Europeia</title>
+      <description><![CDATA[Relatório vem agora dar conta que o UKIP gastou fundos comunitários na defesa de questões nacionais, com o objetivo de eleger o seu líder, Nigel Farage, como Primeiro-ministro]]></description>
+      <pubDate>Tue, 22 Nov 2016 15:19:49 +0000</pubDate>
+      <category>Mundo</category>
+      <link>http://visao.sapo.pt/actualidade/mundo/2016-11-22-Partido-do-Brexit-obrigado-a-devolver-173-mil-euros-a-Uniao-Europeia</link>
+      <guid isPermaLink="false">3e4c1104-22e0-4d73-9824-13fd73977085</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Partido-do-Brexit-obrigado-a-devolver-173-mil-euros-a-Uniao-Europeia</impresa:contentUri>
+    </item>
+    <item>
+      <media:content url="http://images-cdn.impresa.pt/visao/2016-11-22-Richard-Branson/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <title>Richard Branson financia campanha anti-Brexit</title>
+      <description><![CDATA[O milionário dono da Virgin dá um empurrão ao novo movimento pró União Europeia]]></description>
+      <pubDate>Tue, 22 Nov 2016 15:19:04 +0000</pubDate>
+      <category>Mundo</category>
+      <link>http://visao.sapo.pt/actualidade/mundo/2016-11-22-Richard-Branson-financia-campanha-anti-Brexit</link>
+      <guid isPermaLink="false">3b05213a-7aac-4551-945a-efc64f2382de</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Richard-Branson-financia-campanha-anti-Brexit</impresa:contentUri>
+    </item>
+    <item>
+      <media:content url="http://images-cdn.impresa.pt/visao/2016-11-22-Autocarro-Carris-1/w300h225" medium="image" type="image/jpeg" xmlns:media="http://search.yahoo.com/mrss/" />
+      <title>Carris: O que muda em Lisboa e o impacto no seu bolso</title>
+      <description><![CDATA[A Câmara Municipal de Lisboa assumiu a gestão da Carris e já prometeu passes gratuitos para crianças e ainda mais baratos para idosos, autocarros menos poluentes, novas rotas e mais 4 500 lugares de estacionamento]]></description>
+      <pubDate>Tue, 22 Nov 2016 13:00:22 +0000</pubDate>
+      <category>Economia</category>
+      <link>http://visao.sapo.pt/actualidade/economia/2016-11-22-Carris-O-que-muda-em-Lisboa-e-o-impacto-no-seu-bolso</link>
+      <guid isPermaLink="false">8542b98a-b165-4cfb-b462-56cc27cbc8d3</guid>
+      <impresa:contentUri xmlns:impresa="http://rss.impresa.pt/impresa.xsd">2016-11-22-Carris-O-que-muda-em-Lisboa-e-o-impacto-no-seu-bolso</impresa:contentUri>
     </item>
   </channel>
 </channels>
